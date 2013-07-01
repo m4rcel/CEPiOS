@@ -1,0 +1,13 @@
+bin/
+obj/
+Library/
+Temp/
+Assembly*.csproj
+UnityVS*.csproj
+*.pidb
+*.csproj.user
+*.unityproj
+*.userprefs
+*.sln
+*.suo
+*.sln.DotSettings
