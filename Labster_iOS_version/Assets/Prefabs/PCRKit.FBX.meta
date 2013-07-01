@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 16d2b7d4023d99d4f8f9a5d842d03022
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: lableBottleLittle12
+    100002: lableBottleLittle11
+    100004: bottleLittle9
+    100006: bottleLittle6
+    100008: //RootNode
+    100010: insidePcrKitBox
+    100012: blueGreenCover
+    100014: coverPcrCardboard
+    100016: PlasticBag1Placeholder
+    100018: PlasticBag2Placeholder
+    100020: greenBlueCover
+    100022: orangeCover
+    100024: bottleLittle8
+    100026: ShadowPlane005
+    100028: lableBottleLittle10
+    100030: pcrKitBox
+    400000: lableBottleLittle12
+    400002: lableBottleLittle11
+    400004: bottleLittle9
+    400006: bottleLittle6
+    400008: //RootNode
+    400010: insidePcrKitBox
+    400012: blueGreenCover
+    400014: coverPcrCardboard
+    400016: PlasticBag1Placeholder
+    400018: PlasticBag2Placeholder
+    400020: greenBlueCover
+    400022: orangeCover
+    400024: bottleLittle8
+    400026: ShadowPlane005
+    400028: lableBottleLittle10
+    400030: pcrKitBox
+    2300000: lableBottleLittle12
+    2300002: lableBottleLittle11
+    2300004: bottleLittle9
+    2300006: bottleLittle6
+    2300008: insidePcrKitBox
+    2300010: blueGreenCover
+    2300012: coverPcrCardboard
+    2300014: PlasticBag1Placeholder
+    2300016: PlasticBag2Placeholder
+    2300018: greenBlueCover
+    2300020: orangeCover
+    2300022: bottleLittle8
+    2300024: ShadowPlane005
+    2300026: lableBottleLittle10
+    2300028: pcrKitBox
+    3300000: lableBottleLittle12
+    3300002: lableBottleLittle11
+    3300004: bottleLittle9
+    3300006: bottleLittle6
+    3300008: insidePcrKitBox
+    3300010: blueGreenCover
+    3300012: coverPcrCardboard
+    3300014: PlasticBag1Placeholder
+    3300016: PlasticBag2Placeholder
+    3300018: greenBlueCover
+    3300020: orangeCover
+    3300022: bottleLittle8
+    3300024: ShadowPlane005
+    3300026: lableBottleLittle10
+    3300028: pcrKitBox
+    4300000: pcrKitBox
+    4300002: insidePcrKitBox
+    4300004: coverPcrCardboard
+    4300006: bottleLittle9
+    4300008: bottleLittle8
+    4300010: bottleLittle6
+    4300012: blueGreenCover
+    4300014: orangeCover
+    4300016: greenBlueCover
+    4300018: lableBottleLittle10
+    4300020: lableBottleLittle11
+    4300022: lableBottleLittle12
+    4300024: ShadowPlane005
+    4300026: PlasticBag2Placeholder
+    4300028: PlasticBag1Placeholder
+    7400000: Take 001
+    7400002: Open
+    7400004: Closed
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: Open
+      takeName: 
+      firstFrame: 0
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    - name: Closed
+      takeName: 
+      firstFrame: 125
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 3
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 
