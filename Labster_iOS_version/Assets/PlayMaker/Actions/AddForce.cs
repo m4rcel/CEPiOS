@@ -53,6 +53,11 @@ namespace HutongGames.PlayMaker.Actions
 			everyFrame = false;
 		}
 
+        public override void Awake()
+        {
+            Fsm.HandleFixedUpdate = true;
+        }
+
 		public override void OnEnter()
 		{
 			DoAddForce();

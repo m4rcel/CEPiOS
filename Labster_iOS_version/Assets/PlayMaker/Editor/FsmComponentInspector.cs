@@ -1,15 +1,9 @@
 // (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
 
-// comment out to compile out iTween editing functions
-// E.g., if you've removed iTween actions.
-// Can't put this in iTween actions since this is compiled first...
-#define iTweenPathEditing
-
 using System.ComponentModel;
 using UnityEditor;
 using UnityEngine;
 using HutongGames.PlayMaker;
-using HutongGames.PlayMaker.Actions;
 using HutongGames.PlayMakerEditor;
 using System.Collections.Generic;
 
@@ -69,7 +63,7 @@ public class FsmComponentInspector : Editor
     {
         fsmComponent = target as PlayMakerFSM;
 
-        // can happen when playmaker is updated
+        // can happen when playmaker is updated?
         if (fsmComponent != null)
         {
 
@@ -89,8 +83,6 @@ public class FsmComponentInspector : Editor
 
     public override void OnInspectorGUI()
     {
-        //EditorGUIUtility.LookLikeControls();
-
         // can happen when playmaker is updated...?
 
         if (fsmComponent == null)
@@ -105,8 +97,14 @@ public class FsmComponentInspector : Editor
         // Begin GUI
 
         var fsm = fsmComponent.Fsm;
+        fsm.Owner = fsmComponent; // since Owner is no longer serialized
 
-        // FSM Name
+        if (fsm.States.Length > 100)
+        {
+            EditorGUILayout.HelpBox("NOTE: Collapse this inspector for better editor performance with large FSMs.", MessageType.None);
+        }
+
+        // FSM Name        
 
         EditorGUILayout.BeginHorizontal();
 
@@ -172,16 +170,15 @@ public class FsmComponentInspector : Editor
         GUI.enabled = guiEnabled;
 
         // Basic Settings
-
-        /*		if (GUILayout.Button(WatermarkLabel, EditorStyles.popup))
-                {
-                    GenerateWatermarkMenu().ShowAsContext();
-                }
-        */
         
         fsm.RestartOnEnable = GUILayout.Toggle(fsm.RestartOnEnable, new GUIContent(Strings.Label_Reset_On_Disable, Strings.Tooltip_Reset_On_Disable));
         fsm.ShowStateLabel = GUILayout.Toggle(fsm.ShowStateLabel, new GUIContent(Strings.Label_Show_State_Label, Strings.Tooltip_Show_State_Label));
         fsm.EnableDebugFlow = GUILayout.Toggle(fsm.EnableDebugFlow, new GUIContent(Strings.FsmEditorSettings_Enable_DebugFlow, Strings.FsmEditorSettings_Enable_DebugFlow_Tooltip));
+
+        if (GUI.changed)
+        {
+            EditorUtility.SetDirty(fsmComponent);
+        }
 
         GUI.enabled = true;
 
@@ -222,13 +219,9 @@ public class FsmComponentInspector : Editor
                 if (GUILayout.Button(fsmEvent.Name))
                 {
                     fsm.Event(fsmEvent);
+                    FsmEditor.RepaintAll();
                 }
                 GUILayout.EndHorizontal();
-            }
-
-            if (GUI.changed)
-            {
-                FsmEditor.RepaintAll();
             }
         }
 
@@ -338,27 +331,9 @@ public class FsmComponentInspector : Editor
     
     void BuildFsmVariableList()
     {
-//        fsmVariables = fsmTemplate == null ?
-//            FsmVariable.GetFsmVariableList(fsmComponent.Fsm.Variables, target) :
-//            FsmVariable.GetFsmVariableList(fsmTemplate.fsm.Variables);
-
         fsmVariables = FsmVariable.GetFsmVariableList(fsmComponent.Fsm.Variables, target);
 
         fsmVariables.Sort();
-    }
-
-    void CopyTemplateVariables()
-    {
-        fsmComponent.Fsm.Variables = new FsmVariables(fsmTemplate.fsm.Variables);
-    }
-
-    void VerifyTemplateVariables()
-    {
-        var currentValues = new FsmVariables(fsmComponent.Fsm.Variables);
-
-        CopyTemplateVariables();
-
-        fsmComponent.Fsm.Variables.OverrideVariableValues(currentValues);
     }
 
     #region Templates
@@ -409,103 +384,26 @@ public class FsmComponentInspector : Editor
         menu.ShowAsContext();
     }
 
+    void CopyTemplateVariables()
+    {
+        fsmComponent.Fsm.Variables = new FsmVariables(fsmTemplate.fsm.Variables);
+    }
+
+    void VerifyTemplateVariables()
+    {
+        var currentValues = new FsmVariables(fsmComponent.Fsm.Variables);
+
+        CopyTemplateVariables();
+
+        fsmComponent.Fsm.Variables.OverrideVariableValues(currentValues);
+    }
+
     #endregion
-
-    #region iTween
-
-#if iTweenPathEditing
-
-    // Live iTween path editing
-
-    iTweenMoveTo temp;
-    Vector3[] tempVct3;
 
     public void OnSceneGUI()
     {
-        if (fsmComponent == null)
-        {
-            return;
-        }
-
-        var fsm = fsmComponent.Fsm;
-
-        if (fsm == null)
-        {
-            return;
-        }
-
-        if (fsm.EditState != null)
-        {
-            if (fsm.EditState.ActionData == null)
-            {
-                return;
-            }
-
-            fsm.EditState.Fsm = fsm;
-
-            for (var k = 0; k < fsm.EditState.Actions.Length; k++)
-            {
-                var iTweenMoveTo = fsm.EditState.Actions[k] as iTweenMoveTo;
-                if (iTweenMoveTo != null)
-                {
-                    temp = iTweenMoveTo;
-                    if (temp.transforms.Length >= 2)
-                    {
-                        Undo.SetSnapshotTarget(fsmComponent.gameObject, Strings.Command_Adjust_iTween_Path);
-                        tempVct3 = new Vector3[temp.transforms.Length];
-                        for (var i = 0; i < temp.transforms.Length; i++)
-                        {
-                            if (temp.transforms[i].IsNone) tempVct3[i] = temp.vectors[i].IsNone ? Vector3.zero : temp.vectors[i].Value;
-                            else
-                            {
-                                if (temp.transforms[i].Value == null)
-                                {
-                                    tempVct3[i] = temp.vectors[i].IsNone ? Vector3.zero : temp.vectors[i].Value;
-                                }
-                                else
-                                {
-                                    tempVct3[i] = temp.transforms[i].Value.transform.position +
-                                                  (temp.vectors[i].IsNone ? Vector3.zero : temp.vectors[i].Value);
-                                }
-                            }
-                            tempVct3[i] = Handles.PositionHandle(tempVct3[i], Quaternion.identity);
-                            if (temp.transforms[i].IsNone)
-                            {
-                                if (!temp.vectors[i].IsNone)
-                                {
-                                    temp.vectors[i].Value = tempVct3[i];
-                                }
-                            }
-                            else
-                            {
-                                if (temp.transforms[i].Value == null)
-                                {
-                                    if (!temp.vectors[i].IsNone)
-                                    {
-                                        temp.vectors[i].Value = tempVct3[i];
-                                    }
-                                }
-                                else
-                                {
-                                    if (!temp.vectors[i].IsNone)
-                                    {
-                                        temp.vectors[i] = tempVct3[i] - temp.transforms[i].Value.transform.position;
-                                    }
-                                }
-                            }
-                        }
-                        Handles.Label(tempVct3[0], string.Format(Strings.iTween_Path_Editing_Label_Begin, fsmComponent.name));
-                        Handles.Label(tempVct3[tempVct3.Length - 1], string.Format(Strings.iTween_Path_Editing_Label_End, fsmComponent.name));
-                        if (GUI.changed) FsmEditor.EditingActions();
-                    }
-                }
-            }
-        }
+        FsmEditor.OnSceneGUI();
     }
-
-#endif
-
-    #endregion
 }
 
 

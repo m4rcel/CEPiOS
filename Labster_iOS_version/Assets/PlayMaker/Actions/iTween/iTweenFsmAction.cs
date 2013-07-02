@@ -45,6 +45,7 @@ namespace HutongGames.PlayMaker.Actions
 		protected void OnEnteriTween(FsmOwnerDefault anOwner)
 		{
 			GameObject go = Fsm.GetOwnerDefaultTarget(anOwner);
+            if (go == null) return;
 			itweenEvents = (iTweenFSMEvents)go.AddComponent("iTweenFSMEvents");
 			itweenEvents.itweenFSMAction = this;
 			iTweenFSMEvents.itweenIDCount++;

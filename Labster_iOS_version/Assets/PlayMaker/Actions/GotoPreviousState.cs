@@ -16,9 +16,9 @@ namespace HutongGames.PlayMaker.Actions
 		{
 			if (Fsm.PreviousActiveState != null)
 			{
+                Log("Goto Previous State: " + Fsm.PreviousActiveState.Name);
+
 				Fsm.GotoPreviousState();
-			
-				Log("Goto Previous State: " + Fsm.PreviousActiveState.Name);
 			}
 			
 			Finish();

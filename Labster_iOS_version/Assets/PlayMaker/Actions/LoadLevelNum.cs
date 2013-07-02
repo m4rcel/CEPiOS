@@ -18,7 +18,7 @@ namespace HutongGames.PlayMaker.Actions
         [Tooltip("Event to send after the level is loaded.")]
 		public FsmEvent loadedEvent;
 
-        [Tooltip("Don't destroy this FSM when loading the new level.")]
+        [Tooltip("Keep this GameObject in the new level. NOTE: The GameObject and components is disabled then enabled on load; uncheck Reset On Disable to keep the active state.")]
 		public FsmBool dontDestroyOnLoad;
 
 		public override void Reset()

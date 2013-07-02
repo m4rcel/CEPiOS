@@ -30,7 +30,7 @@ namespace HutongGames.PlayMaker.Actions
         /// </summary>
         public override void Awake()
         {
-            if (fsmTemplateControl.fsmTemplate != null)
+            if (fsmTemplateControl.fsmTemplate != null && Application.isPlaying)
             {
                 runFsm = Fsm.CreateSubFsm(fsmTemplateControl);
             }
@@ -41,7 +41,7 @@ namespace HutongGames.PlayMaker.Actions
         /// </summary>
         public override bool Event(FsmEvent fsmEvent)
         {
-            if (runFsm != null && fsmEvent.IsGlobal)
+            if (runFsm != null && (fsmEvent.IsGlobal || fsmEvent.IsSystemEvent))
             {
                 runFsm.Event(fsmEvent);
             }
@@ -107,8 +107,66 @@ namespace HutongGames.PlayMaker.Actions
             }
         }
 
-        // TODO: forward all the other monobehaviour events
-        // TODO: don't want to lose the collision, trigger, and mouse event optimizations for the sub fsm!
+        public override void DoTriggerEnter(Collider other)
+        {
+            if (runFsm.HandleTriggerEnter)
+            {
+                runFsm.OnTriggerEnter(other);
+            }
+        }
+
+        public override void DoTriggerStay(Collider other)
+        {
+            if (runFsm.HandleTriggerStay)
+            {
+                runFsm.OnTriggerStay(other);
+            }
+        }
+
+        public override void DoTriggerExit(Collider other)
+        {
+            if (runFsm.HandleTriggerExit)
+            {
+                runFsm.OnTriggerExit(other);
+            }
+        }
+
+        public override void DoCollisionEnter(Collision collisionInfo)
+        {
+            if (runFsm.HandleCollisionEnter)
+            {
+                runFsm.OnCollisionEnter(collisionInfo);
+            }
+        }
+
+        public override void DoCollisionStay(Collision collisionInfo)
+        {
+            if (runFsm.HandleCollisionStay)
+            {
+                runFsm.OnCollisionStay(collisionInfo);
+            }
+        }
+
+        public override void DoCollisionExit(Collision collisionInfo)
+        {
+            if (runFsm.HandleCollisionExit)
+            {
+                runFsm.OnCollisionExit(collisionInfo);
+            }
+        }
+
+        public override void DoControllerColliderHit(ControllerColliderHit collisionInfo)
+        {
+            runFsm.OnControllerColliderHit(collisionInfo);
+        }
+
+        public override void OnGUI()
+        {
+            if (runFsm.HandleOnGUI)
+            {
+                runFsm.OnGUI();
+            }
+        }
 
         /// <summary>
         /// Stop the FSM on exiting the state

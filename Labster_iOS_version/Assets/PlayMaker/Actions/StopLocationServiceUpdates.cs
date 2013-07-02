@@ -13,18 +13,10 @@ namespace HutongGames.PlayMaker.Actions
 		}
 
 		public override void OnEnter()
-		{
-			
+		{			
 #if UNITY_IPHONE
-			
-#if UNITY_3_5 || UNITY_4_0			
   			Input.location.Stop();
-#else
-  			iPhoneSettings.StopLocationServiceUpdates();			
 #endif
-
-#endif
-
             Finish();
 		}
 	}

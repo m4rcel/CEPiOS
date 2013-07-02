@@ -12,8 +12,15 @@ namespace HutongGames.PlayMaker.Actions
 		public override void OnGUI()
 		{
 			base.OnGUI();
-			
-			GUI.Box(rect, content, style.Value);
+
+            if (string.IsNullOrEmpty(style.Value))
+            {
+                GUI.Box(rect, content);
+            }
+            else
+            {
+                GUI.Box(rect, content, style.Value);
+            }
 		}
 	}
 }

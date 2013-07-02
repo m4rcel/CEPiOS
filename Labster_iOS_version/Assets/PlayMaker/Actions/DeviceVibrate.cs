@@ -13,19 +13,10 @@ namespace HutongGames.PlayMaker.Actions
 
 		public override void OnEnter()
 		{
-#if (UNITY_IPHONE || UNITY_ANDROID)
-			
-#if UNITY_3_5 || UNITY_4_0
-			
+#if (UNITY_IPHONE || UNITY_ANDROID)			
 			Handheld.Vibrate();
-
-#else
-			
-			iPhoneUtils.Vibrate();
-			
 #endif
-
-#endif
+            Finish();
         }
 	}
 }

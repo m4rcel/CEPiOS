@@ -50,8 +50,6 @@ namespace HutongGames.PlayMaker.Actions
 		{
 #if UNITY_IPHONE
 
-#if UNITY_3_5 || UNITY_4_0
-
 			if (Input.location.status != LocationServiceStatus.Running)
 			{
 				Fsm.Event(errorEvent);
@@ -70,31 +68,6 @@ namespace HutongGames.PlayMaker.Actions
 
 			horizontalAccuracy.Value = Input.location.lastData.horizontalAccuracy;
 			verticalAccuracy.Value = Input.location.lastData.verticalAccuracy;
-			
-#else
-			
-			if (iPhoneSettings.locationServiceStatus != LocationServiceStatus.Running)
-			{
-				Fsm.Event(errorEvent);
-				return;
-			}
-			
-			float x = iPhoneInput.lastLocation.longitude;
-			float y = iPhoneInput.lastLocation.latitude;
-			float z = iPhoneInput.lastLocation.altitude;
-			
-			vectorPosition.Value = new Vector3(x,y,z);
-			
-			longitude.Value = x;
-			latitude.Value = y;
-			altitude.Value = z;
-
-			horizontalAccuracy.Value = iPhoneInput.lastLocation.horizontalAccuracy;
-			verticalAccuracy.Value = iPhoneInput.lastLocation.verticalAccuracy;
-			
-			//timeStamp.Value = locationInfo.timestamp - 
-
-#endif
 			
 #endif
         }

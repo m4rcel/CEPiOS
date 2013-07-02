@@ -91,6 +91,12 @@ class FsmEditorWindow : EditorWindow
 	private void OnGUI()
 	{
 		fsmEditor.OnGUI();
+
+        /* Debug Repaint events
+        if (Event.current.type == EventType.repaint)
+        {
+            Debug.Log("Repaint");
+        }*/
 		
 		if (Event.current.type == EventType.ValidateCommand)
     	{

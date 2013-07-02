@@ -55,6 +55,11 @@ namespace HutongGames.PlayMaker.Actions
 		    fixedUpdate = false;
 		}
 
+        public override void Awake()
+        {
+            Fsm.HandleFixedUpdate = true;
+        }
+
 		public override void OnEnter()
 		{
 			if(!everyFrame && !lateUpdate && !fixedUpdate)

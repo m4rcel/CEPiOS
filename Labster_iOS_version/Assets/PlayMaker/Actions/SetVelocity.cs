@@ -34,7 +34,12 @@ namespace HutongGames.PlayMaker.Actions
 			space = Space.Self;
 			everyFrame = false;
 		}
-		
+
+        public override void Awake()
+        {
+            Fsm.HandleFixedUpdate = true;
+        }		
+
 		// TODO: test this works in OnEnter!
 		public override void OnEnter()
 		{

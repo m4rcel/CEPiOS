@@ -32,6 +32,11 @@ namespace HutongGames.PlayMaker.Actions
 		[Tooltip("Event to send when the Finish Distance is reached.")]
 		public FsmEvent finishEvent;
 
+        private GameObject go;
+        private GameObject goTarget;
+	    private Vector3 targetPos;
+        private Vector3 targetPosWithVertical;
+
 		public override void Reset()
 		{
 			gameObject = null;
@@ -48,34 +53,10 @@ namespace HutongGames.PlayMaker.Actions
 
 		void DoMoveTowards()
 		{
-			var go = Fsm.GetOwnerDefaultTarget(gameObject);
-			if (go == null)
-			{
-				return;
-			}
-			
-			var goTarget = targetObject.Value;
-			if (goTarget == null && targetPosition.IsNone)
-			{
-				return;
-			}
-
-			Vector3 targetPos;
-			if (goTarget != null)
-			{
-				targetPos = !targetPosition.IsNone ? 
-					goTarget.transform.TransformPoint(targetPosition.Value) : 
-					goTarget.transform.position;
-			}
-			else
-			{
-				targetPos = targetPosition.Value;
-			}
-
-			if (ignoreVertical.Value)
-			{
-				targetPos.y = go.transform.position.y;
-			}
+            if (!UpdateTargetPos())
+            {
+                return;
+            }
 			
 			go.transform.position = Vector3.MoveTowards(go.transform.position, targetPos, maxSpeed.Value * Time.deltaTime);
 			
@@ -87,5 +68,49 @@ namespace HutongGames.PlayMaker.Actions
 			}
 		}
 
+        public bool UpdateTargetPos()
+        {
+            go = Fsm.GetOwnerDefaultTarget(gameObject);
+            if (go == null)
+            {
+                return false;
+            }
+
+            goTarget = targetObject.Value;
+            if (goTarget == null && targetPosition.IsNone)
+            {
+                return false;
+            }
+
+            if (goTarget != null)
+            {
+                targetPos = !targetPosition.IsNone ?
+                    goTarget.transform.TransformPoint(targetPosition.Value) :
+                    goTarget.transform.position;
+            }
+            else
+            {
+                targetPos = targetPosition.Value;
+            }
+
+            targetPosWithVertical = targetPos;
+
+            if (ignoreVertical.Value)
+            {
+                targetPos.y = go.transform.position.y;
+            }
+
+            return true;
+        }
+
+        public Vector3 GetTargetPos()
+        {
+            return targetPos;
+        }
+
+        public Vector3 GetTargetPosWithVertical()
+        {
+            return targetPosWithVertical;
+        }
 	}
 }

@@ -81,5 +81,17 @@ namespace HutongGames.PlayMaker.Actions
 			}
 		}
 
+	    public override string ErrorCheck()
+	    {
+	        var go = Fsm.GetOwnerDefaultTarget(gameObject);
+
+	        if (go == null || component != null || behaviour.IsNone || string.IsNullOrEmpty(behaviour.Value))
+	        {
+	            return null;
+	        }
+
+	        var comp = go.GetComponent(behaviour.Value) as Behaviour;
+	        return comp != null ? null : "Behaviour missing";
+	    }
 	}
 }

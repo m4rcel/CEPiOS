@@ -18,12 +18,14 @@ namespace HutongGames.PlayMaker.Actions
 
 		[RequiredField]
 		[UIHint(UIHint.FsmTexture)]
+        [Tooltip("The name of the FSM variable.")]
 		public FsmString variableName;
 
-		[RequiredField]
+        [Tooltip("Set the value of the variable.")]
 		public FsmTexture setValue;
 
-		public bool everyFrame;
+        [Tooltip("Repeat every frame. Useful if the value is changing.")]
+        public bool everyFrame;
 
 		GameObject goLastFrame;
 		PlayMakerFSM fsm;
@@ -71,14 +73,19 @@ namespace HutongGames.PlayMaker.Actions
 
 			if (fsm == null)
 			{
+                LogWarning("Could not find FSM: " + fsmName.Value);
 				return;
 			}
 
-			var fsmVar = fsm.FsmVariables.GetFsmTexture(variableName.Value);
+			var fsmVar = fsm.FsmVariables.FindFsmTexture(variableName.Value);
 
 			if (fsmVar != null)
 			{
 				fsmVar.Value = setValue.Value;
+			}
+			else
+			{
+			    LogWarning("Could not find variable: " + variableName.Value);
 			}
 		}
 

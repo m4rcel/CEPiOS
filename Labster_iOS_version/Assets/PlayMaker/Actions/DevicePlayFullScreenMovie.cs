@@ -18,51 +18,24 @@ namespace HutongGames.PlayMaker.Actions
 
 #if (UNITY_IPHONE || UNITY_ANDROID)
 		
-#if UNITY_3_5 || UNITY_4_0
-
 		[Tooltip("Options for displaying movie playback controls. See Unity docs.")]
 		public FullScreenMovieControlMode movieControlMode;
 
 		[Tooltip("Scaling modes for displaying movies.. See Unity docs.")]
 		public FullScreenMovieScalingMode movieScalingMode;
-#else
 
-		[Tooltip("Options for displaying movie playback controls. See Unity docs.")]
-		public iPhoneMovieControlMode movieControlMode;
-
-		[Tooltip("Scaling modes for displaying movies.. See Unity docs.")]
-		public iPhoneMovieScalingMode movieScalingMode;
-
-#endif
-		public override void Reset()
+        public override void Reset()
 		{
 			moviePath = "";
 			fadeColor = Color.black;
 
-#if UNITY_3_5 || UNITY_4_0
 			movieControlMode = FullScreenMovieControlMode.Full;
 			movieScalingMode = FullScreenMovieScalingMode.AspectFit;
-#else
-			movieControlMode = iPhoneMovieControlMode.Full;
-			movieScalingMode = iPhoneMovieScalingMode.AspectFit;
-#endif
 		}
 
 		public override void OnEnter()
 		{
-
-			
-#if UNITY_3_5 || UNITY_4_0
-			
 			Handheld.PlayFullScreenMovie(moviePath.Value, fadeColor.Value, movieControlMode, movieScalingMode);
-
-#else
-			
-			iPhoneUtils.PlayMovie(moviePath.Value, fadeColor.Value, movieControlMode, movieScalingMode);
-			
-#endif
-
-
 		}
 		
 #else
@@ -74,7 +47,8 @@ namespace HutongGames.PlayMaker.Actions
 		{
 			RemindMeAtRuntime = true;
 		}
-		public override void OnEnter()
+
+        public override void OnEnter()
 		{
 			if (RemindMeAtRuntime)
 			{

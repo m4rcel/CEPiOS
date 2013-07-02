@@ -9,16 +9,24 @@ namespace HutongGames.PlayMaker.Actions
 	public class SetFsmVector2 : FsmStateAction
 	{
 		[RequiredField]
+        [Tooltip("The GameObject that owns the FSM.")]
 		public FsmOwnerDefault gameObject;
+
 		[UIHint(UIHint.FsmName)]
 		[Tooltip("Optional name of FSM on Game Object")]
 		public FsmString fsmName;
+
 		[RequiredField]
 		[UIHint(UIHint.FsmVector2)]
+        [Tooltip("The name of the FSM variable.")]
 		public FsmString variableName;
+
 		[RequiredField]
+        [Tooltip("Set the value of the variable.")]
 		public FsmVector2 setValue;
-		public bool everyFrame;
+
+        [Tooltip("Repeat every frame. Useful if the value is changing.")]
+        public bool everyFrame;
 
 		GameObject goLastFrame;
 		PlayMakerFSM fsm;
@@ -45,8 +53,7 @@ namespace HutongGames.PlayMaker.Actions
 			    return;
 			}
 
-			var go = Fsm.GetOwnerDefaultTarget(gameObject);
-			
+			var go = Fsm.GetOwnerDefaultTarget(gameObject);			
             if (go == null)
             {
                 return;
@@ -63,17 +70,21 @@ namespace HutongGames.PlayMaker.Actions
 			
 			if (fsm == null)
 			{
+                LogWarning("Could not find FSM: " + fsmName.Value);
 			    return;
 			}
 			
 			var fsmVector2 = fsm.FsmVariables.GetFsmVector2(variableName.Value);
 			
-			if (fsmVector2 == null)
+			if (fsmVector2 != null)
 			{
-			    return;
+                fsmVector2.Value = setValue.Value;
 			}
+            else
+            {
+                LogWarning("Could not find variable: " + variableName.Value);
+            }
 			
-			fsmVector2.Value = setValue.Value;
 		}
 
 		public override void OnUpdate()

@@ -12,8 +12,15 @@ namespace HutongGames.PlayMaker.Actions
 		public override void OnGUI()
 		{
 			base.OnGUI();
-			
-			GUI.Label(rect, content, style.Value);
+
+            if (string.IsNullOrEmpty(style.Value))
+            {
+                GUI.Label(rect, content);
+            }
+            else
+            {
+                GUI.Label(rect, content, style.Value);
+            }
 		}
 	}
 }
