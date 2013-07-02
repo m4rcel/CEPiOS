@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: 3c867d88d571be14c9aeb88806d3464e
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: TableTop1
+    100002: TableTop2
+    100004: TableTop3
+    100006: TableTop4
+    100008: //RootNode
+    100010: Texture Group
+    100012: T1_shadow
+    100014: T2_shadow
+    100016: T3_shadow
+    100018: T4_shadow
+    100020: Texture Group_2
+    100022: T1_shadow_wall
+    100024: T2_shadow_wall
+    100026: T3_shadow_wall
+    100028: T4_shadow_wall
+    400000: TableTop1
+    400002: TableTop2
+    400004: TableTop3
+    400006: TableTop4
+    400008: //RootNode
+    400010: Texture Group
+    400012: T1_shadow
+    400014: T2_shadow
+    400016: T3_shadow
+    400018: T4_shadow
+    400020: Texture Group_2
+    400022: T1_shadow_wall
+    400024: T2_shadow_wall
+    400026: T3_shadow_wall
+    400028: T4_shadow_wall
+    2300000: TableTop1
+    2300002: TableTop2
+    2300004: TableTop3
+    2300006: TableTop4
+    2300008: T1_shadow
+    2300010: T2_shadow
+    2300012: T3_shadow
+    2300014: T4_shadow
+    2300016: T1_shadow_wall
+    2300018: T2_shadow_wall
+    2300020: T3_shadow_wall
+    2300022: T4_shadow_wall
+    3300000: TableTop1
+    3300002: TableTop2
+    3300004: TableTop3
+    3300006: TableTop4
+    3300008: T1_shadow
+    3300010: T2_shadow
+    3300012: T3_shadow
+    3300014: T4_shadow
+    3300016: T1_shadow_wall
+    3300018: T2_shadow_wall
+    3300020: T3_shadow_wall
+    3300022: T4_shadow_wall
+    4300000: TableTop2
+    4300002: TableTop4
+    4300004: TableTop3
+    4300006: TableTop1
+    4300008: T1_shadow
+    4300010: T3_shadow
+    4300012: T4_shadow
+    4300014: T2_shadow
+    4300016: T1_shadow_wall
+    4300018: T2_shadow_wall
+    4300020: T4_shadow_wall
+    4300022: T3_shadow_wall
+    7400000: modo_Anim
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

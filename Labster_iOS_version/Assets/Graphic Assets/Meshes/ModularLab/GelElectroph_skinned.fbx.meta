@@ -1,0 +1,534 @@
+fileFormatVersion: 2
+guid: 82021f65db53a724793934c8ada284d8
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: base
+    100002: Gel_result_A
+    100004: Gel_result_B
+    100006: GelElec_HI
+    100008: GelElec_LOD0
+    100010: GelElec_LOD1
+    100012: //RootNode
+    100014: plate
+    100016: result_locator_1
+    100018: result_locator_10
+    100020: result_locator_11
+    100022: result_locator_2
+    100024: result_locator_3
+    100026: result_locator_4
+    100028: result_locator_5
+    100030: result_locator_6
+    100032: result_locator_7
+    100034: result_locator_8
+    100036: result_locator_9
+    100038: shadow_plane
+    100040: Texture Group
+    100042: Glass
+    100044: DNAStrip01
+    100046: DNAStrip02
+    100048: DNAStrip03
+    100050: DNAStrip04
+    100052: DNAStrip05
+    100054: DNAStrip06
+    100056: DNAStrip07
+    100058: DNAStrip08
+    100060: DNAStrip09
+    100062: DNAStrip10
+    100064: DNAStrip11
+    100066: Result01
+    100068: Result01 1
+    100070: Result01 10
+    100072: Result01 2
+    100074: Result01 3
+    100076: Result01 4
+    100078: Result01 5
+    100080: Result01 6
+    100082: Result01 7
+    100084: Result01 8
+    100086: Result01 9
+    100088: Result02
+    100090: Result02 1
+    100092: Result02 10
+    100094: Result02 2
+    100096: Result02 3
+    100098: Result02 4
+    100100: Result02 5
+    100102: Result02 6
+    100104: Result02 7
+    100106: Result02 8
+    100108: Result02 9
+    100110: Result03
+    100112: Result03 1
+    100114: Result03 10
+    100116: Result03 2
+    100118: Result03 3
+    100120: Result03 4
+    100122: Result03 5
+    100124: Result03 6
+    100126: Result03 7
+    100128: Result03 8
+    100130: Result03 9
+    100132: Result04
+    100134: Result04 1
+    100136: Result04 10
+    100138: Result04 2
+    100140: Result04 3
+    100142: Result04 4
+    100144: Result04 5
+    100146: Result04 6
+    100148: Result04 7
+    100150: Result04 8
+    100152: Result04 9
+    100154: Result05
+    100156: Result05 1
+    100158: Result05 10
+    100160: Result05 2
+    100162: Result05 3
+    100164: Result05 4
+    100166: Result05 5
+    100168: Result05 6
+    100170: Result05 7
+    100172: Result05 8
+    100174: Result05 9
+    100176: Result06
+    100178: Result06 1
+    100180: Result06 10
+    100182: Result06 2
+    100184: Result06 3
+    100186: Result06 4
+    100188: Result06 5
+    100190: Result06 6
+    100192: Result06 7
+    100194: Result06 8
+    100196: Result06 9
+    100198: Result07
+    100200: Result07 1
+    100202: Result07 10
+    100204: Result07 2
+    100206: Result07 3
+    100208: Result07 4
+    100210: Result07 5
+    100212: Result07 6
+    100214: Result07 7
+    100216: Result07 8
+    100218: Result07 9
+    400000: base
+    400002: Gel_result_A
+    400004: Gel_result_B
+    400006: GelElec_HI
+    400008: GelElec_LOD0
+    400010: GelElec_LOD1
+    400012: //RootNode
+    400014: plate
+    400016: result_locator_1
+    400018: result_locator_10
+    400020: result_locator_11
+    400022: result_locator_2
+    400024: result_locator_3
+    400026: result_locator_4
+    400028: result_locator_5
+    400030: result_locator_6
+    400032: result_locator_7
+    400034: result_locator_8
+    400036: result_locator_9
+    400038: shadow_plane
+    400040: Texture Group
+    400042: Glass
+    400044: DNAStrip01
+    400046: DNAStrip02
+    400048: DNAStrip03
+    400050: DNAStrip04
+    400052: DNAStrip05
+    400054: DNAStrip06
+    400056: DNAStrip07
+    400058: DNAStrip08
+    400060: DNAStrip09
+    400062: DNAStrip10
+    400064: DNAStrip11
+    400066: Result01
+    400068: Result01 1
+    400070: Result01 10
+    400072: Result01 2
+    400074: Result01 3
+    400076: Result01 4
+    400078: Result01 5
+    400080: Result01 6
+    400082: Result01 7
+    400084: Result01 8
+    400086: Result01 9
+    400088: Result02
+    400090: Result02 1
+    400092: Result02 10
+    400094: Result02 2
+    400096: Result02 3
+    400098: Result02 4
+    400100: Result02 5
+    400102: Result02 6
+    400104: Result02 7
+    400106: Result02 8
+    400108: Result02 9
+    400110: Result03
+    400112: Result03 1
+    400114: Result03 10
+    400116: Result03 2
+    400118: Result03 3
+    400120: Result03 4
+    400122: Result03 5
+    400124: Result03 6
+    400126: Result03 7
+    400128: Result03 8
+    400130: Result03 9
+    400132: Result04
+    400134: Result04 1
+    400136: Result04 10
+    400138: Result04 2
+    400140: Result04 3
+    400142: Result04 4
+    400144: Result04 5
+    400146: Result04 6
+    400148: Result04 7
+    400150: Result04 8
+    400152: Result04 9
+    400154: Result05
+    400156: Result05 1
+    400158: Result05 10
+    400160: Result05 2
+    400162: Result05 3
+    400164: Result05 4
+    400166: Result05 5
+    400168: Result05 6
+    400170: Result05 7
+    400172: Result05 8
+    400174: Result05 9
+    400176: Result06
+    400178: Result06 1
+    400180: Result06 10
+    400182: Result06 2
+    400184: Result06 3
+    400186: Result06 4
+    400188: Result06 5
+    400190: Result06 6
+    400192: Result06 7
+    400194: Result06 8
+    400196: Result06 9
+    400198: Result07
+    400200: Result07 1
+    400202: Result07 10
+    400204: Result07 2
+    400206: Result07 3
+    400208: Result07 4
+    400210: Result07 5
+    400212: Result07 6
+    400214: Result07 7
+    400216: Result07 8
+    400218: Result07 9
+    2300000: Gel_result_A
+    2300002: Gel_result_B
+    2300004: GelElec_HI
+    2300006: GelElec_LOD0
+    2300008: GelElec_LOD1
+    2300010: shadow_plane
+    2300012: Glass
+    2300014: Result01
+    2300016: Result01 1
+    2300018: Result01 10
+    2300020: Result01 2
+    2300022: Result01 3
+    2300024: Result01 4
+    2300026: Result01 5
+    2300028: Result01 6
+    2300030: Result01 7
+    2300032: Result01 8
+    2300034: Result01 9
+    2300036: Result02
+    2300038: Result02 1
+    2300040: Result02 10
+    2300042: Result02 2
+    2300044: Result02 3
+    2300046: Result02 4
+    2300048: Result02 5
+    2300050: Result02 6
+    2300052: Result02 7
+    2300054: Result02 8
+    2300056: Result02 9
+    2300058: Result03
+    2300060: Result03 1
+    2300062: Result03 10
+    2300064: Result03 2
+    2300066: Result03 3
+    2300068: Result03 4
+    2300070: Result03 5
+    2300072: Result03 6
+    2300074: Result03 7
+    2300076: Result03 8
+    2300078: Result03 9
+    2300080: Result04
+    2300082: Result04 1
+    2300084: Result04 10
+    2300086: Result04 2
+    2300088: Result04 3
+    2300090: Result04 4
+    2300092: Result04 5
+    2300094: Result04 6
+    2300096: Result04 7
+    2300098: Result04 8
+    2300100: Result04 9
+    2300102: Result05
+    2300104: Result05 1
+    2300106: Result05 10
+    2300108: Result05 2
+    2300110: Result05 3
+    2300112: Result05 4
+    2300114: Result05 5
+    2300116: Result05 6
+    2300118: Result05 7
+    2300120: Result05 8
+    2300122: Result05 9
+    2300124: Result06
+    2300126: Result06 1
+    2300128: Result06 10
+    2300130: Result06 2
+    2300132: Result06 3
+    2300134: Result06 4
+    2300136: Result06 5
+    2300138: Result06 6
+    2300140: Result06 7
+    2300142: Result06 8
+    2300144: Result06 9
+    2300146: Result07
+    2300148: Result07 1
+    2300150: Result07 10
+    2300152: Result07 2
+    2300154: Result07 3
+    2300156: Result07 4
+    2300158: Result07 5
+    2300160: Result07 6
+    2300162: Result07 7
+    2300164: Result07 8
+    2300166: Result07 9
+    3300000: Gel_result_A
+    3300002: Gel_result_B
+    3300004: GelElec_HI
+    3300006: GelElec_LOD0
+    3300008: GelElec_LOD1
+    3300010: shadow_plane
+    3300012: Glass
+    3300014: Result01
+    3300016: Result01 1
+    3300018: Result01 10
+    3300020: Result01 2
+    3300022: Result01 3
+    3300024: Result01 4
+    3300026: Result01 5
+    3300028: Result01 6
+    3300030: Result01 7
+    3300032: Result01 8
+    3300034: Result01 9
+    3300036: Result02
+    3300038: Result02 1
+    3300040: Result02 10
+    3300042: Result02 2
+    3300044: Result02 3
+    3300046: Result02 4
+    3300048: Result02 5
+    3300050: Result02 6
+    3300052: Result02 7
+    3300054: Result02 8
+    3300056: Result02 9
+    3300058: Result03
+    3300060: Result03 1
+    3300062: Result03 10
+    3300064: Result03 2
+    3300066: Result03 3
+    3300068: Result03 4
+    3300070: Result03 5
+    3300072: Result03 6
+    3300074: Result03 7
+    3300076: Result03 8
+    3300078: Result03 9
+    3300080: Result04
+    3300082: Result04 1
+    3300084: Result04 10
+    3300086: Result04 2
+    3300088: Result04 3
+    3300090: Result04 4
+    3300092: Result04 5
+    3300094: Result04 6
+    3300096: Result04 7
+    3300098: Result04 8
+    3300100: Result04 9
+    3300102: Result05
+    3300104: Result05 1
+    3300106: Result05 10
+    3300108: Result05 2
+    3300110: Result05 3
+    3300112: Result05 4
+    3300114: Result05 5
+    3300116: Result05 6
+    3300118: Result05 7
+    3300120: Result05 8
+    3300122: Result05 9
+    3300124: Result06
+    3300126: Result06 1
+    3300128: Result06 10
+    3300130: Result06 2
+    3300132: Result06 3
+    3300134: Result06 4
+    3300136: Result06 5
+    3300138: Result06 6
+    3300140: Result06 7
+    3300142: Result06 8
+    3300144: Result06 9
+    3300146: Result07
+    3300148: Result07 1
+    3300150: Result07 10
+    3300152: Result07 2
+    3300154: Result07 3
+    3300156: Result07 4
+    3300158: Result07 5
+    3300160: Result07 6
+    3300162: Result07 7
+    3300164: Result07 8
+    3300166: Result07 9
+    4300000: GelElec_HI
+    4300002: GelElec_LOD0
+    4300004: Gel_result_A
+    4300006: Gel_result_B
+    4300008: shadow_plane
+    4300010: GelElec_LOD1
+    4300012: Glass
+    4300014: Result01
+    4300016: Result02
+    4300018: Result03
+    4300020: Result04
+    4300022: Result05
+    4300024: Result06
+    4300026: Result07
+    4300028: Result01
+    4300030: Result02
+    4300032: Result03
+    4300034: Result04
+    4300036: Result05
+    4300038: Result06
+    4300040: Result07
+    4300042: Result01
+    4300044: Result02
+    4300046: Result03
+    4300048: Result04
+    4300050: Result05
+    4300052: Result06
+    4300054: Result07
+    4300056: Result01
+    4300058: Result02
+    4300060: Result03
+    4300062: Result04
+    4300064: Result05
+    4300066: Result06
+    4300068: Result07
+    4300070: Result01
+    4300072: Result02
+    4300074: Result03
+    4300076: Result04
+    4300078: Result05
+    4300080: Result06
+    4300082: Result07
+    4300084: Result01
+    4300086: Result02
+    4300088: Result03
+    4300090: Result04
+    4300092: Result05
+    4300094: Result06
+    4300096: Result07
+    4300098: Result01
+    4300100: Result02
+    4300102: Result03
+    4300104: Result04
+    4300106: Result05
+    4300108: Result06
+    4300110: Result07
+    4300112: Result01
+    4300114: Result02
+    4300116: Result03
+    4300118: Result04
+    4300120: Result05
+    4300122: Result06
+    4300124: Result07
+    4300126: Result01
+    4300128: Result02
+    4300130: Result03
+    4300132: Result04
+    4300134: Result05
+    4300136: Result06
+    4300138: Result07
+    4300140: Result01
+    4300142: Result02
+    4300144: Result03
+    4300146: Result04
+    4300148: Result05
+    4300150: Result06
+    4300152: Result07
+    4300154: Result07
+    4300156: Result01
+    4300158: Result02
+    4300160: Result03
+    4300162: Result04
+    4300164: Result05
+    4300166: Result06
+    7400000: modo_Anim
+    7400002: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    20500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - .25
+    - .00999999978
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

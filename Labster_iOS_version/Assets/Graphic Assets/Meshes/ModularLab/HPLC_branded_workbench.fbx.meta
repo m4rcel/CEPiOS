@@ -1,0 +1,230 @@
+fileFormatVersion: 2
+guid: 3a4cef3c96628c0478f1bdba5e493df1
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bottle_100ml
+    100002: Bottle_100ml_tall
+    100004: Bottle_500ml
+    100006: details_HI
+    100008: HPLC_base
+    100010: //RootNode
+    100012: Injector
+    100014: Machine
+    100016: Oven
+    100018: Oven_lid
+    100020: Panel_1
+    100022: Panel_2
+    100024: Shadow
+    100026: Syringe
+    100028: Syringe_box
+    100030: Syringes
+    100032: Texture Group
+    100034: Shadow_hplc
+    100036: Shadow_oven
+    100038: Transp_bottles
+    100040: Transp_oven
+    100042: Transp_panel1
+    100044: Transp_panel2
+    100046: Bottle_100mlCap
+    100048: Bottle_500mlCap
+    100050: BAKE_hi
+    100052: BAKE_low
+    100054: HPLC_LOD0
+    100056: HPLC_LOD1
+    100058: Inj_LOD1
+    100060: Mach_LOD1
+    100062: Oven_LOD1
+    100064: Oven_mesh
+    100066: Oven_lid2
+    100068: Camera
+    100070: 'Injector '
+    100072: OvenRegulator
+    400000: Bottle_100ml
+    400002: Bottle_100ml_tall
+    400004: Bottle_500ml
+    400006: details_HI
+    400008: HPLC_base
+    400010: //RootNode
+    400012: Injector
+    400014: Machine
+    400016: Oven
+    400018: Oven_lid
+    400020: Panel_1
+    400022: Panel_2
+    400024: Shadow
+    400026: Syringe
+    400028: Syringe_box
+    400030: Syringes
+    400032: Texture Group
+    400034: Shadow_hplc
+    400036: Shadow_oven
+    400038: Transp_bottles
+    400040: Transp_oven
+    400042: Transp_panel1
+    400044: Transp_panel2
+    400046: Bottle_100mlCap
+    400048: Bottle_500mlCap
+    400050: BAKE_hi
+    400052: BAKE_low
+    400054: HPLC_LOD0
+    400056: HPLC_LOD1
+    400058: Inj_LOD1
+    400060: Mach_LOD1
+    400062: Oven_LOD1
+    400064: Oven_mesh
+    400066: Oven_lid2
+    400068: Camera
+    400070: 'Injector '
+    400072: OvenRegulator
+    2300000: Bottle_100ml
+    2300002: Bottle_100ml_tall
+    2300004: Bottle_500ml
+    2300006: details_HI
+    2300008: HPLC_base
+    2300010: Shadow
+    2300012: Syringe
+    2300014: Syringe_box
+    2300016: Syringes
+    2300018: Shadow_hplc
+    2300020: Shadow_oven
+    2300022: Transp_bottles
+    2300024: Transp_oven
+    2300026: Transp_panel1
+    2300028: Transp_panel2
+    2300030: Bottle_100mlCap
+    2300032: Bottle_500mlCap
+    2300034: BAKE_hi
+    2300036: BAKE_low
+    2300038: Oven_mesh
+    2300040: 'Injector '
+    2300042: OvenRegulator
+    3300000: Bottle_100ml
+    3300002: Bottle_100ml_tall
+    3300004: Bottle_500ml
+    3300006: details_HI
+    3300008: HPLC_base
+    3300010: Shadow
+    3300012: Syringe
+    3300014: Syringe_box
+    3300016: Syringes
+    3300018: Shadow_hplc
+    3300020: Shadow_oven
+    3300022: Transp_bottles
+    3300024: Transp_oven
+    3300026: Transp_panel1
+    3300028: Transp_panel2
+    3300030: Bottle_100mlCap
+    3300032: Bottle_500mlCap
+    3300034: BAKE_hi
+    3300036: BAKE_low
+    3300038: Oven_mesh
+    3300040: 'Injector '
+    3300042: OvenRegulator
+    4300000: HPLC_base
+    4300002: details_HI
+    4300004: Bottle_100ml
+    4300006: Syringe_box
+    4300008: Syringes
+    4300010: Shadow
+    4300012: Bottle_500ml
+    4300014: Syringe
+    4300016: Bottle_100ml_tall
+    4300018: Transp_panel2
+    4300020: Transp_panel1
+    4300022: Shadow_oven
+    4300024: Transp_oven
+    4300026: Shadow_hplc
+    4300028: Transp_bottles
+    4300030: Bottle_100mlCap
+    4300032: Bottle_500mlCap
+    4300034: HPLC_LOD0
+    4300036: HPLC_LOD1
+    4300038: BAKE_hi
+    4300040: BAKE_low
+    4300042: Oven_mesh
+    4300044: 'Injector '
+    4300046: OvenRegulator
+    7400000: modo_Anim
+    7400002: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: HPLC_base
+    13700002: HPLC_LOD0
+    13700004: HPLC_LOD1
+    13700006: Oven_mesh
+    20500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: modo_Anim
+      takeName: modo_Anim
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - .25
+    - .00999999978
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

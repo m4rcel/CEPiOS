@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 591e6fc549077e54da8b0462060c809a
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Mesh
+    100004: Texture Group
+    100006: TextureLocators
+    100008: checklist
+    100010: Mesh_2
+    100012: Mesh_3
+    100014: moving_surface
+    100016: Texture Group_2
+    100018: fixed_dock
+    100020: moving_dock
+    100022: test_tube
+    100024: TextureLocators_2
+    100026: dock_round_shadow
+    100028: dock_round_shadow 1
+    100030: dock_square
+    100032: dock_square 1
+    100034: Texture Group_3
+    100036: dock_round_shadow_2
+    100038: dock_round_shadow_3
+    100040: dock_square_2
+    100042: dock_square_3
+    100044: lab_icon
+    100046: media
+    100048: temp_lab_unmapped
+    100050: Texture Group_4
+    100052: TextureLocators_3
+    400000: //RootNode
+    400002: Mesh
+    400004: Texture Group
+    400006: TextureLocators
+    400008: checklist
+    400010: Mesh_2
+    400012: Mesh_3
+    400014: moving_surface
+    400016: Texture Group_2
+    400018: fixed_dock
+    400020: moving_dock
+    400022: test_tube
+    400024: TextureLocators_2
+    400026: dock_round_shadow
+    400028: dock_round_shadow 1
+    400030: dock_square
+    400032: dock_square 1
+    400034: Texture Group_3
+    400036: dock_round_shadow_2
+    400038: dock_round_shadow_3
+    400040: dock_square_2
+    400042: dock_square_3
+    400044: lab_icon
+    400046: media
+    400048: temp_lab_unmapped
+    400050: Texture Group_4
+    400052: TextureLocators_3
+    2300000: Mesh
+    2300002: checklist
+    2300004: Mesh_2
+    2300006: Mesh_3
+    2300008: moving_surface
+    2300010: fixed_dock
+    2300012: moving_dock
+    2300014: test_tube
+    2300016: dock_round_shadow
+    2300018: dock_round_shadow 1
+    2300020: dock_square
+    2300022: dock_square 1
+    2300024: dock_round_shadow_2
+    2300026: dock_round_shadow_3
+    2300028: dock_square_2
+    2300030: dock_square_3
+    2300032: lab_icon
+    2300034: media
+    2300036: temp_lab_unmapped
+    3300000: Mesh
+    3300002: checklist
+    3300004: Mesh_2
+    3300006: Mesh_3
+    3300008: moving_surface
+    3300010: fixed_dock
+    3300012: moving_dock
+    3300014: test_tube
+    3300016: dock_round_shadow
+    3300018: dock_round_shadow 1
+    3300020: dock_square
+    3300022: dock_square 1
+    3300024: dock_round_shadow_2
+    3300026: dock_round_shadow_3
+    3300028: dock_square_2
+    3300030: dock_square_3
+    3300032: lab_icon
+    3300034: media
+    3300036: temp_lab_unmapped
+    4300000: Mesh
+    4300002: moving_surface
+    4300004: Mesh_2
+    4300006: checklist
+    4300008: Mesh_3
+    4300010: fixed_dock
+    4300012: test_tube
+    4300014: moving_dock
+    4300016: dock_round_shadow
+    4300018: dock_square
+    4300020: dock_round_shadow
+    4300022: dock_square
+    4300024: media
+    4300026: lab_icon
+    4300028: temp_lab_unmapped
+    4300030: dock_round_shadow_2
+    4300032: dock_round_shadow_3
+    4300034: dock_square_2
+    4300036: dock_square_3
+    7400000: modo_Anim
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00100000005
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 12
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

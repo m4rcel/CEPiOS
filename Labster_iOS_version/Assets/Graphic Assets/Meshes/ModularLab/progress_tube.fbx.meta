@@ -1,0 +1,81 @@
+fileFormatVersion: 2
+guid: 78a1e2b915d52df4b80fd60df2f40416
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Glass
+    100002: Liquid
+    100004: Liquid_base
+    100006: Liquid_top
+    100008: Outline
+    100010: //RootNode
+    100012: Texture Group
+    400000: Glass
+    400002: Liquid
+    400004: Liquid_base
+    400006: Liquid_top
+    400008: Outline
+    400010: //RootNode
+    400012: Texture Group
+    2300000: Glass
+    2300002: Outline
+    3300000: Glass
+    3300002: Outline
+    4300000: Liquid
+    4300002: Glass
+    4300004: Outline
+    7400000: modo_Anim
+    7400002: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Liquid
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

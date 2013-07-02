@@ -1,0 +1,128 @@
+fileFormatVersion: 2
+guid: 80ac781754e76aa4fa1730eeb1a086f1
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Base
+    100002: Camera
+    100004: Directional Light
+    100006: Door_L
+    100008: Door_R
+    100010: Glass Artistic 02.lxp
+    100012: //RootNode
+    100014: Incubator_LODA
+    100016: Incubator_LODB
+    100018: Incubator_mesh
+    100020: Incubator_shadow
+    100022: Texture Group
+    100024: Tray_lower
+    100026: Tray_mid
+    100028: Tray_upper
+    100030: _none___Image___2___Texture_
+    100032: _none___Image___3___Texture_
+    100034: _none___Image___4___Texture_
+    100036: _none___Image___5___Texture_
+    100038: _none___Image___6___Texture_
+    100040: _none___Image___7___Texture_
+    100042: _none___Image___8___Texture_
+    100044: _none___Image___Texture_
+    100046: Directional_Light
+    100048: Glass_Artistic_02.lxp
+    100050: Gradient__20___Texture_
+    100052: Image__3_Point_Beige__Texture_
+    100054: Render
+    100056: Texture_Group
+    400000: Base
+    400002: Camera
+    400004: Directional Light
+    400006: Door_L
+    400008: Door_R
+    400010: Glass Artistic 02.lxp
+    400012: //RootNode
+    400014: Incubator_LODA
+    400016: Incubator_LODB
+    400018: Incubator_mesh
+    400020: Incubator_shadow
+    400022: Texture Group
+    400024: Tray_lower
+    400026: Tray_mid
+    400028: Tray_upper
+    400030: _none___Image___2___Texture_
+    400032: _none___Image___3___Texture_
+    400034: _none___Image___4___Texture_
+    400036: _none___Image___5___Texture_
+    400038: _none___Image___6___Texture_
+    400040: _none___Image___7___Texture_
+    400042: _none___Image___8___Texture_
+    400044: _none___Image___Texture_
+    400046: Directional_Light
+    400048: Glass_Artistic_02.lxp
+    400050: Gradient__20___Texture_
+    400052: Image__3_Point_Beige__Texture_
+    400054: Render
+    400056: Texture_Group
+    2300000: Incubator_LODB
+    2300002: Incubator_shadow
+    3300000: Incubator_LODB
+    3300002: Incubator_shadow
+    4300000: Incubator_LODB
+    4300002: Incubator_shadow
+    4300004: Incubator_mesh
+    7400000: Open
+    7400002: Tray_middle_extend
+    7400004: Tray_upper_extend
+    7400006: Tray_middle_extend (2)
+    11100000: //RootNode
+    13700000: Incubator_mesh
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00600000005
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

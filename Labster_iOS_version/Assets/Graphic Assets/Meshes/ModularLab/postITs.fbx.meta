@@ -1,0 +1,85 @@
+fileFormatVersion: 2
+guid: 11822b5a61912c34e9aa7a7691391dfe
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Post-IT
+    100004: 'Post-IT '
+    100006: Post-IT  1
+    100008: Post-IT  2
+    100010: //RootNode
+    100012: Texture Group
+    100014: Directional Light
+    400000: Camera
+    400002: Post-IT
+    400004: 'Post-IT '
+    400006: Post-IT  1
+    400008: Post-IT  2
+    400010: //RootNode
+    400012: Texture Group
+    400014: Directional Light
+    2300000: Post-IT
+    2300002: 'Post-IT '
+    2300004: Post-IT  1
+    2300006: Post-IT  2
+    3300000: Post-IT
+    3300002: 'Post-IT '
+    3300004: Post-IT  1
+    3300006: Post-IT  2
+    4300000: 'Post-IT '
+    4300002: 'Post-IT '
+    4300004: 'Post-IT '
+    4300006: Post-IT
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 15
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

@@ -1,0 +1,101 @@
+fileFormatVersion: 2
+guid: db45bd775adb8384480a399b7c578994
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: bake_setup
+    100002: //RootNode
+    100004: PC_HI
+    100006: 'PC_LOD0 '
+    100008: PC_LOD1
+    100010: Plane
+    100012: Texture Group
+    100014: shadow_plane
+    100016: PC_LOD0_2
+    100018: TextureLocators
+    100020: Camera
+    400000: bake_setup
+    400002: //RootNode
+    400004: PC_HI
+    400006: 'PC_LOD0 '
+    400008: PC_LOD1
+    400010: Plane
+    400012: Texture Group
+    400014: shadow_plane
+    400016: PC_LOD0_2
+    400018: TextureLocators
+    400020: Camera
+    2300000: PC_HI
+    2300002: 'PC_LOD0 '
+    2300004: PC_LOD1
+    2300006: Plane
+    2300008: shadow_plane
+    2300010: PC_LOD0_2
+    3300000: PC_HI
+    3300002: 'PC_LOD0 '
+    3300004: PC_LOD1
+    3300006: Plane
+    3300008: shadow_plane
+    3300010: PC_LOD0_2
+    4300000: PC_HI
+    4300002: PC_LOD1
+    4300004: 'PC_LOD0 '
+    4300006: Plane
+    4300008: shadow_plane
+    4300010: PC_LOD0_2
+    7400000: modo_Anim
+    9500000: //RootNode
+    11100000: //RootNode
+    20500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - .25
+    - .00999999978
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 35
+    splitTangentsAcrossUV: 0
+    normalImportMode: 0
+    tangentImportMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

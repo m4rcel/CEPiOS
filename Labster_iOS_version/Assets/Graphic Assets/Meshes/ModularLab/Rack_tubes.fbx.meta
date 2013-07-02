@@ -1,0 +1,373 @@
+fileFormatVersion: 2
+guid: 0c582228525ae2c4d9e26b2cb3d69093
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Mesh
+    100002: Mesh_2
+    100004: Mesh_3
+    100006: PCR
+    100008: PCR_10
+    100010: PCR_11
+    100012: PCR_2
+    100014: PCR_3
+    100016: PCR_4
+    100018: PCR_5
+    100020: PCR_6
+    100022: PCR_7
+    100024: PCR_8
+    100026: PCR_9
+    100028: PCR_block
+    100030: PCR_block_Detail
+    100032: pipette_tip
+    100034: pipette_tip 1
+    100036: pipette_tip 10
+    100038: pipette_tip 11
+    100040: pipette_tip 12
+    100042: pipette_tip 13
+    100044: pipette_tip 14
+    100046: pipette_tip 15
+    100048: pipette_tip 16
+    100050: pipette_tip 17
+    100052: pipette_tip 18
+    100054: pipette_tip 19
+    100056: pipette_tip 2
+    100058: pipette_tip 20
+    100060: pipette_tip 21
+    100062: pipette_tip 22
+    100064: pipette_tip 23
+    100066: pipette_tip 24
+    100068: pipette_tip 25
+    100070: pipette_tip 26
+    100072: pipette_tip 27
+    100074: pipette_tip 28
+    100076: pipette_tip 29
+    100078: pipette_tip 3
+    100080: pipette_tip 30
+    100082: pipette_tip 31
+    100084: pipette_tip 32
+    100086: pipette_tip 33
+    100088: pipette_tip 34
+    100090: pipette_tip 35
+    100092: pipette_tip 4
+    100094: pipette_tip 5
+    100096: pipette_tip 6
+    100098: pipette_tip 7
+    100100: pipette_tip 8
+    100102: pipette_tip 9
+    100104: pipette_tip_13_low
+    100106: Pipette_tips
+    100108: Rack_Eppendorf
+    100110: Rack_PCR
+    100112: Rack_PCR_double
+    100114: //RootNode
+    100116: Rack_tubes
+    100118: Shadow
+    100120: Shadow_2
+    100122: Shadow_3
+    100124: Shadow_4
+    100126: Texture Group
+    100128: Tips
+    400000: Mesh
+    400002: Mesh_2
+    400004: Mesh_3
+    400006: PCR
+    400008: PCR_10
+    400010: PCR_11
+    400012: PCR_2
+    400014: PCR_3
+    400016: PCR_4
+    400018: PCR_5
+    400020: PCR_6
+    400022: PCR_7
+    400024: PCR_8
+    400026: PCR_9
+    400028: PCR_block
+    400030: PCR_block_Detail
+    400032: pipette_tip
+    400034: pipette_tip 1
+    400036: pipette_tip 10
+    400038: pipette_tip 11
+    400040: pipette_tip 12
+    400042: pipette_tip 13
+    400044: pipette_tip 14
+    400046: pipette_tip 15
+    400048: pipette_tip 16
+    400050: pipette_tip 17
+    400052: pipette_tip 18
+    400054: pipette_tip 19
+    400056: pipette_tip 2
+    400058: pipette_tip 20
+    400060: pipette_tip 21
+    400062: pipette_tip 22
+    400064: pipette_tip 23
+    400066: pipette_tip 24
+    400068: pipette_tip 25
+    400070: pipette_tip 26
+    400072: pipette_tip 27
+    400074: pipette_tip 28
+    400076: pipette_tip 29
+    400078: pipette_tip 3
+    400080: pipette_tip 30
+    400082: pipette_tip 31
+    400084: pipette_tip 32
+    400086: pipette_tip 33
+    400088: pipette_tip 34
+    400090: pipette_tip 35
+    400092: pipette_tip 4
+    400094: pipette_tip 5
+    400096: pipette_tip 6
+    400098: pipette_tip 7
+    400100: pipette_tip 8
+    400102: pipette_tip 9
+    400104: pipette_tip_13_low
+    400106: Pipette_tips
+    400108: Rack_Eppendorf
+    400110: Rack_PCR
+    400112: Rack_PCR_double
+    400114: //RootNode
+    400116: Rack_tubes
+    400118: Shadow
+    400120: Shadow_2
+    400122: Shadow_3
+    400124: Shadow_4
+    400126: Texture Group
+    400128: Tips
+    2300000: Mesh
+    2300002: PCR
+    2300004: PCR_10
+    2300006: PCR_11
+    2300008: PCR_2
+    2300010: PCR_3
+    2300012: PCR_4
+    2300014: PCR_5
+    2300016: PCR_6
+    2300018: PCR_7
+    2300020: PCR_8
+    2300022: PCR_9
+    2300024: PCR_block
+    2300026: PCR_block_Detail
+    2300028: pipette_tip
+    2300030: pipette_tip 1
+    2300032: pipette_tip 10
+    2300034: pipette_tip 11
+    2300036: pipette_tip 12
+    2300038: pipette_tip 13
+    2300040: pipette_tip 14
+    2300042: pipette_tip 15
+    2300044: pipette_tip 16
+    2300046: pipette_tip 17
+    2300048: pipette_tip 18
+    2300050: pipette_tip 19
+    2300052: pipette_tip 2
+    2300054: pipette_tip 20
+    2300056: pipette_tip 21
+    2300058: pipette_tip 22
+    2300060: pipette_tip 23
+    2300062: pipette_tip 24
+    2300064: pipette_tip 25
+    2300066: pipette_tip 26
+    2300068: pipette_tip 27
+    2300070: pipette_tip 28
+    2300072: pipette_tip 29
+    2300074: pipette_tip 3
+    2300076: pipette_tip 30
+    2300078: pipette_tip 31
+    2300080: pipette_tip 32
+    2300082: pipette_tip 33
+    2300084: pipette_tip 34
+    2300086: pipette_tip 35
+    2300088: pipette_tip 4
+    2300090: pipette_tip 5
+    2300092: pipette_tip 6
+    2300094: pipette_tip 7
+    2300096: pipette_tip 8
+    2300098: pipette_tip 9
+    2300100: pipette_tip_13_low
+    2300102: Pipette_tips
+    2300104: Rack_Eppendorf
+    2300106: Rack_PCR
+    2300108: Rack_PCR_double
+    2300110: Rack_tubes
+    2300112: Shadow
+    2300114: Shadow_2
+    2300116: Shadow_3
+    2300118: Shadow_4
+    2300120: Tips
+    2300122: //RootNode
+    3300000: Mesh
+    3300002: PCR
+    3300004: PCR_10
+    3300006: PCR_11
+    3300008: PCR_2
+    3300010: PCR_3
+    3300012: PCR_4
+    3300014: PCR_5
+    3300016: PCR_6
+    3300018: PCR_7
+    3300020: PCR_8
+    3300022: PCR_9
+    3300024: PCR_block
+    3300026: PCR_block_Detail
+    3300028: pipette_tip
+    3300030: pipette_tip 1
+    3300032: pipette_tip 10
+    3300034: pipette_tip 11
+    3300036: pipette_tip 12
+    3300038: pipette_tip 13
+    3300040: pipette_tip 14
+    3300042: pipette_tip 15
+    3300044: pipette_tip 16
+    3300046: pipette_tip 17
+    3300048: pipette_tip 18
+    3300050: pipette_tip 19
+    3300052: pipette_tip 2
+    3300054: pipette_tip 20
+    3300056: pipette_tip 21
+    3300058: pipette_tip 22
+    3300060: pipette_tip 23
+    3300062: pipette_tip 24
+    3300064: pipette_tip 25
+    3300066: pipette_tip 26
+    3300068: pipette_tip 27
+    3300070: pipette_tip 28
+    3300072: pipette_tip 29
+    3300074: pipette_tip 3
+    3300076: pipette_tip 30
+    3300078: pipette_tip 31
+    3300080: pipette_tip 32
+    3300082: pipette_tip 33
+    3300084: pipette_tip 34
+    3300086: pipette_tip 35
+    3300088: pipette_tip 4
+    3300090: pipette_tip 5
+    3300092: pipette_tip 6
+    3300094: pipette_tip 7
+    3300096: pipette_tip 8
+    3300098: pipette_tip 9
+    3300100: pipette_tip_13_low
+    3300102: Pipette_tips
+    3300104: Rack_Eppendorf
+    3300106: Rack_PCR
+    3300108: Rack_PCR_double
+    3300110: Rack_tubes
+    3300112: Shadow
+    3300114: Shadow_2
+    3300116: Shadow_3
+    3300118: Shadow_4
+    3300120: Tips
+    3300122: //RootNode
+    4300000: Rack_tubes
+    4300002: Shadow
+    4300004: Rack_Eppendorf
+    4300006: Shadow_2
+    4300008: Rack_PCR
+    4300010: PCR
+    4300012: PCR_9
+    4300014: PCR_10
+    4300016: PCR_11
+    4300018: Rack_PCR_double
+    4300020: PCR_2
+    4300022: PCR_8
+    4300024: PCR_3
+    4300026: PCR_7
+    4300028: PCR_4
+    4300030: PCR_6
+    4300032: PCR_5
+    4300034: Mesh
+    4300036: PCR_block
+    4300038: Shadow_3
+    4300040: pipette_tip
+    4300042: pipette_tip
+    4300044: pipette_tip
+    4300046: pipette_tip
+    4300048: pipette_tip
+    4300050: pipette_tip
+    4300052: pipette_tip
+    4300054: pipette_tip
+    4300056: pipette_tip
+    4300058: pipette_tip
+    4300060: pipette_tip
+    4300062: pipette_tip
+    4300064: pipette_tip
+    4300066: pipette_tip
+    4300068: pipette_tip
+    4300070: pipette_tip
+    4300072: pipette_tip
+    4300074: pipette_tip
+    4300076: pipette_tip
+    4300078: pipette_tip
+    4300080: pipette_tip
+    4300082: pipette_tip
+    4300084: pipette_tip
+    4300086: pipette_tip
+    4300088: pipette_tip
+    4300090: pipette_tip
+    4300092: pipette_tip
+    4300094: pipette_tip
+    4300096: pipette_tip
+    4300098: pipette_tip
+    4300100: pipette_tip
+    4300102: pipette_tip
+    4300104: pipette_tip
+    4300106: pipette_tip
+    4300108: pipette_tip
+    4300110: pipette_tip
+    4300112: Pipette_tips
+    4300114: Tips
+    4300116: Shadow_4
+    4300118: pipette_tip_13_low
+    4300120: PCR_block_Detail
+    7400000: modo_Anim
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

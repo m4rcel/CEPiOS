@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: 0a08fb56fe97c774eb613e21b7eb4096
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: B_Adapters
+    100002: B_Adapters_Cap
+    100004: B_ATailing
+    100006: B_Atailing_Cap
+    100008: B_EndRepair
+    100010: B_EndRepair_Cap
+    100012: B_MagneticBeads
+    100014: B_MagneticBeads_Cap
+    100016: B_MasterMix
+    100018: B_MasterMix_Cap
+    100020: Bag_Eppendorf
+    100022: Bag_HI
+    100024: Bag_HI_MeshPart0
+    100026: Bag_HI_MeshPart1
+    100028: Bag_PCR
+    100030: base
+    100032: Bottle_hi
+    100034: lid1
+    100036: lid2
+    100038: PCR_kit_mesh_LOD0
+    100040: PCR_kit_mesh_LOD1
+    100042: //RootNode
+    100044: Shadow
+    100046: Texture Group
+    100048: Bag_Eppendorf_
+    100050: Bag_Pcr
+    100052: Bottle_Adapters
+    100054: Bottle_Atailing
+    100056: Bottle_EndRepair
+    100058: Bottle_MagneticBeads
+    100060: Bottle_MasterMix
+    100062: Transform Effector
+    100064: Transform Effector_10
+    100066: Transform Effector_11
+    100068: Transform Effector_12
+    100070: Transform Effector_2
+    100072: Transform Effector_3
+    100074: Transform Effector_4
+    100076: Transform Effector_5
+    100078: Transform Effector_6
+    100080: Transform Effector_7
+    100082: Transform Effector_8
+    100084: Transform Effector_9
+    100086: TextureLocators
+    400000: B_Adapters
+    400002: B_Adapters_Cap
+    400004: B_ATailing
+    400006: B_Atailing_Cap
+    400008: B_EndRepair
+    400010: B_EndRepair_Cap
+    400012: B_MagneticBeads
+    400014: B_MagneticBeads_Cap
+    400016: B_MasterMix
+    400018: B_MasterMix_Cap
+    400020: Bag_Eppendorf
+    400022: Bag_HI
+    400024: Bag_HI_MeshPart0
+    400026: Bag_HI_MeshPart1
+    400028: Bag_PCR
+    400030: base
+    400032: Bottle_hi
+    400034: lid1
+    400036: lid2
+    400038: PCR_kit_mesh_LOD0
+    400040: PCR_kit_mesh_LOD1
+    400042: //RootNode
+    400044: Shadow
+    400046: Texture Group
+    400048: Bag_Eppendorf_
+    400050: Bag_Pcr
+    400052: Bottle_Adapters
+    400054: Bottle_Atailing
+    400056: Bottle_EndRepair
+    400058: Bottle_MagneticBeads
+    400060: Bottle_MasterMix
+    400062: Transform Effector
+    400064: Transform Effector_10
+    400066: Transform Effector_11
+    400068: Transform Effector_12
+    400070: Transform Effector_2
+    400072: Transform Effector_3
+    400074: Transform Effector_4
+    400076: Transform Effector_5
+    400078: Transform Effector_6
+    400080: Transform Effector_7
+    400082: Transform Effector_8
+    400084: Transform Effector_9
+    400086: TextureLocators
+    2300000: Bag_HI_MeshPart0
+    2300002: Bag_HI_MeshPart1
+    2300004: Bottle_hi
+    2300006: PCR_kit_mesh_LOD1
+    2300008: Shadow
+    2300010: Bag_Eppendorf
+    2300012: Bag_Pcr
+    2300014: Bottle_Adapters
+    2300016: Bottle_Atailing
+    2300018: Bottle_EndRepair
+    2300020: Bottle_MagneticBeads
+    2300022: Bottle_MasterMix
+    3300000: Bag_HI_MeshPart0
+    3300002: Bag_HI_MeshPart1
+    3300004: Bottle_hi
+    3300006: PCR_kit_mesh_LOD1
+    3300008: Shadow
+    3300010: Bag_Eppendorf
+    3300012: Bag_Pcr
+    3300014: Bottle_Adapters
+    3300016: Bottle_Atailing
+    3300018: Bottle_EndRepair
+    3300020: Bottle_MagneticBeads
+    3300022: Bottle_MasterMix
+    4300000: PCR_kit_mesh_LOD0
+    4300002: Bottle_hi
+    4300004: Bag_HI_MeshPart0
+    4300006: Bag_HI_MeshPart1
+    4300008: Shadow
+    4300010: PCR_kit_mesh_LOD1
+    4300012: Bottle_EndRepair
+    4300014: Bottle_Adapters
+    4300016: Bottle_Atailing
+    4300018: Bottle_MagneticBeads
+    4300020: Bottle_MasterMix
+    4300022: Bag_Eppendorf
+    4300024: Bag_Pcr
+    7400000: modo_Anim
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: PCR_kit_mesh_LOD0
+    13700002: Bag_Eppendorf
+    13700004: Bag_Pcr
+    13700006: Bottle_Adapters
+    13700008: Bottle_Atailing
+    13700010: Bottle_EndRepair
+    13700012: Bottle_MagneticBeads
+    13700014: Bottle_MasterMix
+    20500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - .25
+    - .00999999978
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

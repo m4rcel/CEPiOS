@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: 99986d0d7adaba442a5b6bab13876895
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: _________HPLC_HI
+    100002: buffer_HI
+    100004: buffers_LOD0
+    100006: column_lid
+    100008: column_lid_mesh_LOD0
+    100010: column_tray
+    100012: column_tray_mesh_LOD0
+    100014: glow_plane_front
+    100016: glow_plane_front_mesh_LOD0
+    100018: glow_plane_tubes
+    100020: glow_plane_tubes_mesh_LOD0
+    100022: //RootNode
+    100024: HPLC_LOD0
+    100026: HPLC_LOD1
+    100028: HPLC_LOD2
+    100030: lid
+    100032: Mesh
+    100034: shadow_plane
+    100036: Texture Group
+    100038: Tube_locator
+    100040: 'Tube_locator '
+    100042: Tube_locator  1
+    100044: Tube_locator  2
+    100046: Tube_locator  3
+    100048: Tube_locator  4
+    100050: Tube_locator  5
+    100052: Tube_locator  6
+    100054: Tube_locator  7
+    100056: Tube_locator  8
+    100058: tubes
+    100060: tubes_lid
+    100062: tubes_lid_mesh_LOD0
+    100064: tubes_tray_lower
+    100066: tubes_tray_mesh_LOD0
+    100068: 'tubes_tray_mesh_LOD0 '
+    100070: tubes_tray_upper
+    100072: bake_setup
+    100074: Plane
+    400000: _________HPLC_HI
+    400002: buffer_HI
+    400004: buffers_LOD0
+    400006: column_lid
+    400008: column_lid_mesh_LOD0
+    400010: column_tray
+    400012: column_tray_mesh_LOD0
+    400014: glow_plane_front
+    400016: glow_plane_front_mesh_LOD0
+    400018: glow_plane_tubes
+    400020: glow_plane_tubes_mesh_LOD0
+    400022: //RootNode
+    400024: HPLC_LOD0
+    400026: HPLC_LOD1
+    400028: HPLC_LOD2
+    400030: lid
+    400032: Mesh
+    400034: shadow_plane
+    400036: Texture Group
+    400038: Tube_locator
+    400040: 'Tube_locator '
+    400042: Tube_locator  1
+    400044: Tube_locator  2
+    400046: Tube_locator  3
+    400048: Tube_locator  4
+    400050: Tube_locator  5
+    400052: Tube_locator  6
+    400054: Tube_locator  7
+    400056: Tube_locator  8
+    400058: tubes
+    400060: tubes_lid
+    400062: tubes_lid_mesh_LOD0
+    400064: tubes_tray_lower
+    400066: tubes_tray_mesh_LOD0
+    400068: 'tubes_tray_mesh_LOD0 '
+    400070: tubes_tray_upper
+    400072: bake_setup
+    400074: Plane
+    2300000: _________HPLC_HI
+    2300002: buffer_HI
+    2300004: buffers_LOD0
+    2300006: column_lid_mesh_LOD0
+    2300008: column_tray_mesh_LOD0
+    2300010: glow_plane_front_mesh_LOD0
+    2300012: glow_plane_tubes_mesh_LOD0
+    2300014: HPLC_LOD0
+    2300016: HPLC_LOD1
+    2300018: HPLC_LOD2
+    2300020: lid
+    2300022: Mesh
+    2300024: shadow_plane
+    2300026: tubes
+    2300028: tubes_lid_mesh_LOD0
+    2300030: tubes_tray_mesh_LOD0
+    2300032: 'tubes_tray_mesh_LOD0 '
+    2300034: Plane
+    3300000: _________HPLC_HI
+    3300002: buffer_HI
+    3300004: buffers_LOD0
+    3300006: column_lid_mesh_LOD0
+    3300008: column_tray_mesh_LOD0
+    3300010: glow_plane_front_mesh_LOD0
+    3300012: glow_plane_tubes_mesh_LOD0
+    3300014: HPLC_LOD0
+    3300016: HPLC_LOD1
+    3300018: HPLC_LOD2
+    3300020: lid
+    3300022: Mesh
+    3300024: shadow_plane
+    3300026: tubes
+    3300028: tubes_lid_mesh_LOD0
+    3300030: tubes_tray_mesh_LOD0
+    3300032: 'tubes_tray_mesh_LOD0 '
+    3300034: Plane
+    4300000: _________HPLC_HI
+    4300002: lid
+    4300004: tubes
+    4300006: HPLC_LOD0
+    4300008: shadow_plane
+    4300010: buffers_LOD0
+    4300012: glow_plane_front_mesh_LOD0
+    4300014: glow_plane_tubes_mesh_LOD0
+    4300016: tubes_tray_mesh_LOD0
+    4300018: 'tubes_tray_mesh_LOD0 '
+    4300020: tubes_lid_mesh_LOD0
+    4300022: column_lid_mesh_LOD0
+    4300024: column_tray_mesh_LOD0
+    4300026: buffer_HI
+    4300028: Mesh
+    4300030: HPLC_LOD1
+    4300032: HPLC_LOD2
+    4300034: Plane
+    7400000: modo_Anim
+    9500000: //RootNode
+    11100000: //RootNode
+    20500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - .25
+    - .125
+    - .00999999978
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

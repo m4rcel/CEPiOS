@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 86dc877209393dd4bad6075b2aff1037
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: bake_setup
+    100002: 'door_bottom '
+    100004: 'door_top1 '
+    100006: 'door_top2 '
+    100008: glow_front
+    100010: 'glow_plane_lower (2) '
+    100012: 'glow_plane_upper '
+    100014: 'lower_tray '
+    100016: 'Lower_tray (2) '
+    100018: 'lower_tray_arms '
+    100020: 'lower_tray_lid (2) '
+    100022: 'PCR_LOD0 '
+    100024: PCR_LOD1
+    100026: PCR_LOD2
+    100028: //RootNode
+    100030: PCR_skinned
+    100032: Plane
+    100034: Texture Group
+    100036: Transform Effector
+    100038: 'Transform Effector '
+    100040: Transform Effector  1
+    100042: Transform Effector  10
+    100044: Transform Effector  11
+    100046: Transform Effector  2
+    100048: Transform Effector  3
+    100050: Transform Effector  4
+    100052: Transform Effector  5
+    100054: Transform Effector  6
+    100056: Transform Effector  7
+    100058: Transform Effector  8
+    100060: Transform Effector  9
+    100062: upper_tray
+    100064: 'Upper_tray '
+    100066: upper_tray_arms
+    100068: 'upper_tray_lid '
+    100070: Shadow
+    100072: door_bottom_3
+    100074: door_top1_3
+    100076: door_top2_3
+    100078: 'glow_plane_lower '
+    100080: glow_plane_upper_2
+    100082: 'Lower_tray '
+    100084: lower_tray_2
+    100086: lower_tray_arms_2
+    100088: 'lower_tray_lid '
+    100090: PCR_LOD0_2
+    100092: Transform Effector_10
+    100094: Transform Effector_11
+    100096: Transform Effector_12
+    100098: Transform Effector_13
+    100100: Transform Effector_2
+    100102: Transform Effector_3
+    100104: Transform Effector_4
+    100106: Transform Effector_5
+    100108: Transform Effector_6
+    100110: Transform Effector_7
+    100112: Transform Effector_8
+    100114: Transform Effector_9
+    100116: Upper_tray_2
+    100118: upper_tray_lid_2
+    400000: bake_setup
+    400002: 'door_bottom '
+    400004: 'door_top1 '
+    400006: 'door_top2 '
+    400008: glow_front
+    400010: 'glow_plane_lower (2) '
+    400012: 'glow_plane_upper '
+    400014: 'lower_tray '
+    400016: 'Lower_tray (2) '
+    400018: 'lower_tray_arms '
+    400020: 'lower_tray_lid (2) '
+    400022: 'PCR_LOD0 '
+    400024: PCR_LOD1
+    400026: PCR_LOD2
+    400028: PCR_skinned
+    400030: //RootNode
+    400032: Plane
+    400034: Texture Group
+    400036: Transform Effector
+    400038: 'Transform Effector '
+    400040: Transform Effector  1
+    400042: Transform Effector  10
+    400044: Transform Effector  11
+    400046: Transform Effector  2
+    400048: Transform Effector  3
+    400050: Transform Effector  4
+    400052: Transform Effector  5
+    400054: Transform Effector  6
+    400056: Transform Effector  7
+    400058: Transform Effector  8
+    400060: Transform Effector  9
+    400062: upper_tray
+    400064: 'Upper_tray '
+    400066: upper_tray_arms
+    400068: 'upper_tray_lid '
+    400070: Shadow
+    400072: door_bottom_3
+    400074: door_top1_3
+    400076: door_top2_3
+    400078: 'glow_plane_lower '
+    400080: glow_plane_upper_2
+    400082: 'Lower_tray '
+    400084: lower_tray_2
+    400086: lower_tray_arms_2
+    400088: 'lower_tray_lid '
+    400090: PCR_LOD0_2
+    400092: Transform Effector_10
+    400094: Transform Effector_11
+    400096: Transform Effector_12
+    400098: Transform Effector_13
+    400100: Transform Effector_2
+    400102: Transform Effector_3
+    400104: Transform Effector_4
+    400106: Transform Effector_5
+    400108: Transform Effector_6
+    400110: Transform Effector_7
+    400112: Transform Effector_8
+    400114: Transform Effector_9
+    400116: Upper_tray_2
+    400118: upper_tray_lid_2
+    2300000: PCR_LOD1
+    2300002: PCR_LOD2
+    2300004: Plane
+    2300006: Shadow
+    3300000: PCR_LOD1
+    3300002: PCR_LOD2
+    3300004: Plane
+    3300006: Shadow
+    4300000: PCR_LOD1
+    4300002: PCR_LOD2
+    4300004: PCR_skinned
+    4300006: Plane
+    4300008: Shadow
+    7400000: modo_Anim
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: PCR_skinned
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: modo_Anim
+      takeName: modo_Anim
+      firstFrame: 0
+      lastFrame: 30.2999992
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

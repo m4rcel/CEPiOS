@@ -1,0 +1,79 @@
+fileFormatVersion: 2
+guid: ad466d15655eece45ae5d04df9765918
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Pot5Mesh
+    100002: Soil5
+    100004: //RootNode
+    100006: TWilfordii2
+    100008: TWilfordii2Mesh
+    400000: Pot5Mesh
+    400002: Soil5
+    400004: //RootNode
+    400006: TWilfordii2
+    400008: TWilfordii2Mesh
+    2300000: Pot5Mesh
+    2300002: Soil5
+    2300004: TWilfordii2
+    2300006: TWilfordii2Mesh
+    3300000: Pot5Mesh
+    3300002: Soil5
+    3300004: TWilfordii2
+    3300006: TWilfordii2Mesh
+    4300000: Soil5
+    4300002: Pot5Mesh
+    4300004: TWilfordii2
+    4300006: TWilfordii2Mesh
+    7400000: Take 001
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

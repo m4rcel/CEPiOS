@@ -1,0 +1,130 @@
+fileFormatVersion: 2
+guid: b6d37c0f5fa0ccc4096e8d1078b18b9b
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Card_Slot
+    100002: Glow_Front
+    100004: Screen
+    100006: Sequencer
+    100008: Sequencer_mesh
+    100010: //RootNode
+    100012: shadow_plane
+    100014: Texture Group
+    100016: Tray
+    100018: Sequencer_LOD0
+    100020: Sequencer_LOD1
+    400000: Card_Slot
+    400002: Glow_Front
+    400004: Screen
+    400006: Sequencer
+    400008: Sequencer_mesh
+    400010: //RootNode
+    400012: shadow_plane
+    400014: Texture Group
+    400016: Tray
+    400018: Sequencer_LOD0
+    400020: Sequencer_LOD1
+    2300000: Sequencer_mesh
+    2300002: shadow_plane
+    2300004: Sequencer_LOD1
+    3300000: Sequencer_mesh
+    3300002: shadow_plane
+    3300004: Sequencer_LOD1
+    4300000: shadow_plane
+    4300002: Sequencer_mesh
+    4300004: Sequencer_LOD1
+    7400000: modo_Anim
+    7400002: modo_Anim //// Sequencer_LOD0
+    7400004: modo_Anim //// shadow_plane
+    7400006: modo_Anim //// Sequencer_mesh
+    7400008: modo_Anim //// Glow_Front
+    7400010: modo_Anim //// Screen
+    7400012: modo_Anim //// Tray
+    7400014: modo_Anim //// Card_Slot
+    7400016: modo_Anim //// Sequencer_LOD1
+    7400018: modo_Anim //// Texture Group
+    9500000: //RootNode
+    11100000: //RootNode
+    11100002: Card_Slot
+    11100004: Glow_Front
+    11100006: Screen
+    11100008: Sequencer_LOD0
+    11100010: Sequencer_LOD1
+    11100012: Sequencer_mesh
+    11100014: shadow_plane
+    11100016: Texture Group
+    11100018: Tray
+    13700000: Sequencer_mesh
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: modo_Anim
+      takeName: modo_Anim
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 16
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

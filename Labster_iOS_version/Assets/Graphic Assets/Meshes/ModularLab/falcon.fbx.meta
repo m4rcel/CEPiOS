@@ -1,0 +1,82 @@
+fileFormatVersion: 2
+guid: e31e9a71b7db7454b982ca720c435052
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Texture Group
+    100002: Camera
+    100004: Mesh
+    100006: Directional Light
+    100008: //RootNode
+    100010: Body
+    100012: Cap
+    400000: Texture Group
+    400002: Camera
+    400004: Mesh
+    400006: Directional Light
+    400008: //RootNode
+    400010: Body
+    400012: Cap
+    2300000: Mesh
+    2300002: //RootNode
+    2300004: Body
+    2300006: Cap
+    3300000: Mesh
+    3300002: //RootNode
+    3300004: Body
+    3300006: Cap
+    4300000: Mesh
+    4300002: Body
+    4300004: Cap
+    7400000: modo_Anim
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

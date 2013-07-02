@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: b2d4afdc3ebaf8b40869df261a17de5b
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: agar_plate
+    100002: antibiotics
+    100004: Base
+    100006: Base_3
+    100008: Cuvette_socket
+    100010: Display
+    100012: Door_L
+    100014: Door_R
+    100016: Drigalski_spatula
+    100018: Electroporator_LODA
+    100020: Electroporator_LODB
+    100022: Electroporator_mesh
+    100024: Electroporator_shadow
+    100026: Ethanol_bottle
+    100028: Flask
+    100030: Flask_medium
+    100032: Flask_w_medium
+    100034: Glass Artistic 02.lxp
+    100036: Incubator_LODA
+    100038: Incubator_LODB
+    100040: Incubator_mesh
+    100042: Incubator_shadow
+    100044: Lid
+    100046: Medium_base
+    100048: Medium_top
+    100050: //RootNode
+    100052: Texture Group
+    100054: Tray_lower
+    100056: Tray_mid
+    100058: Tray_upper
+    400000: agar_plate
+    400002: antibiotics
+    400004: Base
+    400006: Base_3
+    400008: Cuvette_socket
+    400010: Display
+    400012: Door_L
+    400014: Door_R
+    400016: Drigalski_spatula
+    400018: Electroporator_LODA
+    400020: Electroporator_LODB
+    400022: Electroporator_mesh
+    400024: Electroporator_shadow
+    400026: Ethanol_bottle
+    400028: Flask
+    400030: Flask_medium
+    400032: Flask_w_medium
+    400034: Glass Artistic 02.lxp
+    400036: Incubator_LODA
+    400038: Incubator_LODB
+    400040: Incubator_mesh
+    400042: Incubator_shadow
+    400044: Lid
+    400046: Medium_base
+    400048: Medium_top
+    400050: //RootNode
+    400052: Texture Group
+    400054: Tray_lower
+    400056: Tray_mid
+    400058: Tray_upper
+    2300000: agar_plate
+    2300002: antibiotics
+    2300004: Drigalski_spatula
+    2300006: Electroporator_LODB
+    2300008: Electroporator_mesh
+    2300010: Electroporator_shadow
+    2300012: Ethanol_bottle
+    2300014: Flask
+    2300016: Incubator_LODB
+    2300018: Incubator_shadow
+    3300000: agar_plate
+    3300002: antibiotics
+    3300004: Drigalski_spatula
+    3300006: Electroporator_LODB
+    3300008: Electroporator_mesh
+    3300010: Electroporator_shadow
+    3300012: Ethanol_bottle
+    3300014: Flask
+    3300016: Incubator_LODB
+    3300018: Incubator_shadow
+    4300000: agar_plate
+    4300002: antibiotics
+    4300004: Drigalski_spatula
+    4300006: Incubator_LODB
+    4300008: Incubator_shadow
+    4300010: Electroporator_shadow
+    4300012: Electroporator_LODB
+    4300014: Ethanol_bottle
+    4300016: Flask
+    4300018: Flask_medium
+    4300020: Incubator_mesh
+    4300022: Electroporator_mesh
+    7400000: modo_Anim
+    11100000: //RootNode
+    13700000: Flask_medium
+    13700002: Incubator_mesh
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: 07c7ecae970aa2f4ab86992a43ad7473
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: ____________PCR_open_HI
+    100002: details_HI
+    100004: details_LOW
+    100006: door_bottom
+    100008: 'door_bottom '
+    100010: door_bottom_mesh
+    100012: 'door_bottom_mesh '
+    100014: door_top1
+    100016: 'door_top1 '
+    100018: door_top1_mesh
+    100020: 'door_top1_mesh '
+    100022: door_top2
+    100024: 'door_top2 '
+    100026: door_top2_mesh
+    100028: 'door_top2_mesh '
+    100030: Mesh
+    100032: //RootNode
+    100034: PCR_open_LOD0
+    100036: shadow_plane
+    100038: Texture Group
+    100040: trays
+    100042: 'trays '
+    100044: lower_lid
+    100046: upper_lid
+    100048: 'upper_tray '
+    100050: 'upper_tray_arms '
+    100052: upper_tray_arms_mesh
+    100054: upper_tray_lid
+    100056: upper_tray_mesh
+    100058: 'glow_plane_lower '
+    100060: 'glow_plane_lower_mesh '
+    100062: glow_plane_upper
+    100064: glow_plane_upper_mesh
+    100066: 'lower_lid '
+    100068: lower_tray
+    100070: 'Lower_tray '
+    100072: lower_tray_arms
+    100074: 'lower_tray_arms_mesh '
+    100076: 'lower_tray_lid '
+    100078: 'lower_tray_mesh '
+    100080: Upper_tray
+    100082: 'glow_front '
+    100084: glow_front_mesh
+    100086: PCR_LOD0
+    100088: PCR_LOD1
+    100090: ____________PCR_HI_freeze
+    100092: bake_setup
+    100094: PCR_LOD2
+    100096: Plane
+    100098: door_bottom_mesh_LOD0
+    100100: door_top1_mesh_LOD0
+    100102: door_top2_mesh_LOD0
+    100104: glow_front_mesh_LOD0
+    100106: glow_plane_lower_mesh_LOD0
+    100108: glow_plane_upper_mesh_LOD0
+    100110: lower_lid_LOD0
+    100112: lower_tray_arms_mesh_LOD0
+    100114: lower_tray_mesh_LOD0
+    100116: upper_lid_LOD0
+    100118: upper_tray_arms_mesh_LOD0
+    100120: upper_tray_mesh_LOD0
+    400000: ____________PCR_open_HI
+    400002: details_HI
+    400004: details_LOW
+    400006: door_bottom
+    400008: 'door_bottom '
+    400010: door_bottom_mesh
+    400012: 'door_bottom_mesh '
+    400014: door_top1
+    400016: 'door_top1 '
+    400018: door_top1_mesh
+    400020: 'door_top1_mesh '
+    400022: door_top2
+    400024: 'door_top2 '
+    400026: door_top2_mesh
+    400028: 'door_top2_mesh '
+    400030: Mesh
+    400032: //RootNode
+    400034: PCR_open_LOD0
+    400036: shadow_plane
+    400038: Texture Group
+    400040: trays
+    400042: 'trays '
+    400044: lower_lid
+    400046: upper_lid
+    400048: 'upper_tray '
+    400050: 'upper_tray_arms '
+    400052: upper_tray_arms_mesh
+    400054: upper_tray_lid
+    400056: upper_tray_mesh
+    400058: 'glow_plane_lower '
+    400060: 'glow_plane_lower_mesh '
+    400062: glow_plane_upper
+    400064: glow_plane_upper_mesh
+    400066: 'lower_lid '
+    400068: lower_tray
+    400070: 'Lower_tray '
+    400072: lower_tray_arms
+    400074: 'lower_tray_arms_mesh '
+    400076: 'lower_tray_lid '
+    400078: 'lower_tray_mesh '
+    400080: Upper_tray
+    400082: 'glow_front '
+    400084: glow_front_mesh
+    400086: PCR_LOD0
+    400088: PCR_LOD1
+    400090: ____________PCR_HI_freeze
+    400092: bake_setup
+    400094: PCR_LOD2
+    400096: Plane
+    400098: door_bottom_mesh_LOD0
+    400100: door_top1_mesh_LOD0
+    400102: door_top2_mesh_LOD0
+    400104: glow_front_mesh_LOD0
+    400106: glow_plane_lower_mesh_LOD0
+    400108: glow_plane_upper_mesh_LOD0
+    400110: lower_lid_LOD0
+    400112: lower_tray_arms_mesh_LOD0
+    400114: lower_tray_mesh_LOD0
+    400116: upper_lid_LOD0
+    400118: upper_tray_arms_mesh_LOD0
+    400120: upper_tray_mesh_LOD0
+    2300000: ____________PCR_open_HI
+    2300002: details_HI
+    2300004: details_LOW
+    2300006: door_bottom_mesh
+    2300008: 'door_bottom_mesh '
+    2300010: door_top1_mesh
+    2300012: 'door_top1_mesh '
+    2300014: door_top2_mesh
+    2300016: 'door_top2_mesh '
+    2300018: Mesh
+    2300020: PCR_open_LOD0
+    2300022: shadow_plane
+    2300024: trays
+    2300026: 'trays '
+    2300028: lower_lid
+    2300030: upper_lid
+    2300032: upper_tray_arms_mesh
+    2300034: upper_tray_mesh
+    2300036: 'glow_plane_lower_mesh '
+    2300038: glow_plane_upper_mesh
+    2300040: 'lower_lid '
+    2300042: 'lower_tray_arms_mesh '
+    2300044: 'lower_tray_mesh '
+    2300046: glow_front_mesh
+    2300048: PCR_LOD0
+    2300050: PCR_LOD1
+    2300052: ____________PCR_HI_freeze
+    2300054: PCR_LOD2
+    2300056: Plane
+    2300058: door_bottom_mesh_LOD0
+    2300060: door_top1_mesh_LOD0
+    2300062: door_top2_mesh_LOD0
+    2300064: glow_front_mesh_LOD0
+    2300066: glow_plane_lower_mesh_LOD0
+    2300068: glow_plane_upper_mesh_LOD0
+    2300070: lower_lid_LOD0
+    2300072: lower_tray_arms_mesh_LOD0
+    2300074: lower_tray_mesh_LOD0
+    2300076: upper_lid_LOD0
+    2300078: upper_tray_arms_mesh_LOD0
+    2300080: upper_tray_mesh_LOD0
+    3300000: ____________PCR_open_HI
+    3300002: details_HI
+    3300004: details_LOW
+    3300006: door_bottom_mesh
+    3300008: 'door_bottom_mesh '
+    3300010: door_top1_mesh
+    3300012: 'door_top1_mesh '
+    3300014: door_top2_mesh
+    3300016: 'door_top2_mesh '
+    3300018: Mesh
+    3300020: PCR_open_LOD0
+    3300022: shadow_plane
+    3300024: trays
+    3300026: 'trays '
+    3300028: lower_lid
+    3300030: upper_lid
+    3300032: upper_tray_arms_mesh
+    3300034: upper_tray_mesh
+    3300036: 'glow_plane_lower_mesh '
+    3300038: glow_plane_upper_mesh
+    3300040: 'lower_lid '
+    3300042: 'lower_tray_arms_mesh '
+    3300044: 'lower_tray_mesh '
+    3300046: glow_front_mesh
+    3300048: PCR_LOD0
+    3300050: PCR_LOD1
+    3300052: ____________PCR_HI_freeze
+    3300054: PCR_LOD2
+    3300056: Plane
+    3300058: door_bottom_mesh_LOD0
+    3300060: door_top1_mesh_LOD0
+    3300062: door_top2_mesh_LOD0
+    3300064: glow_front_mesh_LOD0
+    3300066: glow_plane_lower_mesh_LOD0
+    3300068: glow_plane_upper_mesh_LOD0
+    3300070: lower_lid_LOD0
+    3300072: lower_tray_arms_mesh_LOD0
+    3300074: lower_tray_mesh_LOD0
+    3300076: upper_lid_LOD0
+    3300078: upper_tray_arms_mesh_LOD0
+    3300080: upper_tray_mesh_LOD0
+    4300000: ____________PCR_open_HI
+    4300002: door_bottom_mesh
+    4300004: door_top2_mesh
+    4300006: door_top1_mesh
+    4300008: trays
+    4300010: PCR_open_LOD0
+    4300012: 'door_bottom_mesh '
+    4300014: 'door_top2_mesh '
+    4300016: 'door_top1_mesh '
+    4300018: 'trays '
+    4300020: Mesh
+    4300022: details_HI
+    4300024: details_LOW
+    4300026: shadow_plane
+    4300028: lower_lid
+    4300030: upper_tray_arms_mesh
+    4300032: upper_tray_mesh
+    4300034: upper_lid
+    4300036: glow_plane_upper_mesh
+    4300038: 'glow_plane_lower_mesh '
+    4300040: 'lower_tray_arms_mesh '
+    4300042: 'lower_tray_mesh '
+    4300044: 'lower_lid '
+    4300046: glow_front_mesh
+    4300048: PCR_LOD0
+    4300050: PCR_LOD1
+    4300052: ____________PCR_HI_freeze
+    4300054: PCR_LOD2
+    4300056: Plane
+    4300058: glow_front_mesh_LOD0
+    4300060: glow_plane_upper_mesh_LOD0
+    4300062: glow_plane_lower_mesh_LOD0
+    4300064: door_bottom_mesh_LOD0
+    4300066: door_top2_mesh_LOD0
+    4300068: door_top1_mesh_LOD0
+    4300070: upper_tray_arms_mesh_LOD0
+    4300072: upper_tray_mesh_LOD0
+    4300074: upper_lid_LOD0
+    4300076: lower_tray_arms_mesh_LOD0
+    4300078: lower_tray_mesh_LOD0
+    4300080: lower_lid_LOD0
+    7400000: modo_Anim
+    9500000: //RootNode
+    11100000: //RootNode
+    20500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - .25
+    - .125
+    - .00999999978
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

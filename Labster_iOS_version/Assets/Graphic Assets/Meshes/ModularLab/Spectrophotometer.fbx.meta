@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: cb2f10daadc6201469a99af6e684900c
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Cuvette_socket
+    100002: Cuvette_socket_mesh_LOD0
+    100004: glow_flare_front_mesh_LOD0
+    100006: glow_flare_top_mesh_LOD0
+    100008: glow_ouline_top_mesh
+    100010: glow_ouline_top_mesh_LOD0
+    100012: glow_outline_front_mesh
+    100014: glow_outline_front_mesh_LOD0
+    100016: glow_panel_front
+    100018: 'glow_panel_front '
+    100020: glow_panel_front_mesh
+    100022: glow_panel_front_mesh_LOD0
+    100024: glow_panel_top
+    100026: 'glow_panel_top '
+    100028: glow_panel_top_mesh
+    100030: glow_panel_top_mesh_LOD0
+    100032: lower_lid
+    100034: lower_lid_ctrl
+    100036: 'lower_lid_ctrl '
+    100038: lower_lid_LOD0
+    100040: Microplate_LOD0
+    100042: normal_details_HI
+    100044: normal_details_LOW
+    100046: Plane
+    100048: shadow_plane
+    100050: //RootNode
+    100052: Spectrophotometer_HI
+    100054: Spectrophotometer_LOD0
+    100056: Spectrophotometer_LOD1
+    100058: Spectrophotometer_LOD2
+    100060: Texture Group
+    100062: tray
+    100064: tray_ctrl
+    100066: 'tray_ctrl '
+    100068: tray_LOD0
+    100070: upper_lid
+    100072: upper_lid_ctrl
+    100074: 'upper_lid_ctrl '
+    100076: upper_lid_LOD0
+    100078: __________Spectrophotometer_HI
+    400000: Cuvette_socket
+    400002: Cuvette_socket_mesh_LOD0
+    400004: glow_flare_front_mesh_LOD0
+    400006: glow_flare_top_mesh_LOD0
+    400008: glow_ouline_top_mesh
+    400010: glow_ouline_top_mesh_LOD0
+    400012: glow_outline_front_mesh
+    400014: glow_outline_front_mesh_LOD0
+    400016: glow_panel_front
+    400018: 'glow_panel_front '
+    400020: glow_panel_front_mesh
+    400022: glow_panel_front_mesh_LOD0
+    400024: glow_panel_top
+    400026: 'glow_panel_top '
+    400028: glow_panel_top_mesh
+    400030: glow_panel_top_mesh_LOD0
+    400032: lower_lid
+    400034: lower_lid_ctrl
+    400036: 'lower_lid_ctrl '
+    400038: lower_lid_LOD0
+    400040: Microplate_LOD0
+    400042: normal_details_HI
+    400044: normal_details_LOW
+    400046: Plane
+    400048: shadow_plane
+    400050: //RootNode
+    400052: Spectrophotometer_HI
+    400054: Spectrophotometer_LOD0
+    400056: Spectrophotometer_LOD1
+    400058: Spectrophotometer_LOD2
+    400060: Texture Group
+    400062: tray
+    400064: tray_ctrl
+    400066: 'tray_ctrl '
+    400068: tray_LOD0
+    400070: upper_lid
+    400072: upper_lid_ctrl
+    400074: 'upper_lid_ctrl '
+    400076: upper_lid_LOD0
+    400078: __________Spectrophotometer_HI
+    2300000: Cuvette_socket_mesh_LOD0
+    2300002: glow_flare_front_mesh_LOD0
+    2300004: glow_flare_top_mesh_LOD0
+    2300006: glow_ouline_top_mesh
+    2300008: glow_ouline_top_mesh_LOD0
+    2300010: glow_outline_front_mesh
+    2300012: glow_outline_front_mesh_LOD0
+    2300014: glow_panel_front_mesh
+    2300016: glow_panel_front_mesh_LOD0
+    2300018: glow_panel_top_mesh
+    2300020: glow_panel_top_mesh_LOD0
+    2300022: lower_lid
+    2300024: lower_lid_LOD0
+    2300026: Microplate_LOD0
+    2300028: normal_details_HI
+    2300030: normal_details_LOW
+    2300032: Plane
+    2300034: shadow_plane
+    2300036: Spectrophotometer_HI
+    2300038: Spectrophotometer_LOD0
+    2300040: Spectrophotometer_LOD1
+    2300042: Spectrophotometer_LOD2
+    2300044: tray
+    2300046: tray_LOD0
+    2300048: upper_lid
+    2300050: upper_lid_LOD0
+    2300052: __________Spectrophotometer_HI
+    3300000: Cuvette_socket_mesh_LOD0
+    3300002: glow_flare_front_mesh_LOD0
+    3300004: glow_flare_top_mesh_LOD0
+    3300006: glow_ouline_top_mesh
+    3300008: glow_ouline_top_mesh_LOD0
+    3300010: glow_outline_front_mesh
+    3300012: glow_outline_front_mesh_LOD0
+    3300014: glow_panel_front_mesh
+    3300016: glow_panel_front_mesh_LOD0
+    3300018: glow_panel_top_mesh
+    3300020: glow_panel_top_mesh_LOD0
+    3300022: lower_lid
+    3300024: lower_lid_LOD0
+    3300026: Microplate_LOD0
+    3300028: normal_details_HI
+    3300030: normal_details_LOW
+    3300032: Plane
+    3300034: shadow_plane
+    3300036: Spectrophotometer_HI
+    3300038: Spectrophotometer_LOD0
+    3300040: Spectrophotometer_LOD1
+    3300042: Spectrophotometer_LOD2
+    3300044: tray
+    3300046: tray_LOD0
+    3300048: upper_lid
+    3300050: upper_lid_LOD0
+    3300052: __________Spectrophotometer_HI
+    4300000: Spectrophotometer_HI
+    4300002: glow_ouline_top_mesh
+    4300004: glow_panel_top_mesh
+    4300006: glow_outline_front_mesh
+    4300008: glow_panel_front_mesh
+    4300010: tray
+    4300012: lower_lid
+    4300014: upper_lid
+    4300016: Spectrophotometer_LOD1
+    4300018: Spectrophotometer_LOD2
+    4300020: Plane
+    4300022: normal_details_LOW
+    4300024: normal_details_HI
+    4300026: Spectrophotometer_LOD0
+    4300028: shadow_plane
+    4300030: Cuvette_socket_mesh_LOD0
+    4300032: glow_ouline_top_mesh_LOD0
+    4300034: glow_flare_top_mesh_LOD0
+    4300036: glow_panel_top_mesh_LOD0
+    4300038: glow_outline_front_mesh_LOD0
+    4300040: glow_flare_front_mesh_LOD0
+    4300042: glow_panel_front_mesh_LOD0
+    4300044: Microplate_LOD0
+    4300046: tray_LOD0
+    4300048: lower_lid_LOD0
+    4300050: upper_lid_LOD0
+    4300052: __________Spectrophotometer_HI
+    7400000: Open
+    9500000: //RootNode
+    11100000: //RootNode
+    20500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: Open
+      takeName: modo_Anim
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - .25
+    - .125
+    - .00999999978
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 21
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

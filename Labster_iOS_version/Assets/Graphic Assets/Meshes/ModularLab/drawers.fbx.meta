@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 7e7b8a32cf45b0245be402219646be82
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: 45
+    100002: avanzi
+    100004: C1_LOD0
+    100006: C1_LOD1
+    100008: D1_LOD0
+    100010: D1_LOD1
+    100012: D4_LOD0
+    100014: D4_LOD1
+    100016: 'D5_LOD0 '
+    100018: D5_LOD1
+    100020: //RootNode
+    100022: Texture Group
+    100024: 'Texture Group '
+    100026: Tri Grid 01.lxe
+    100028: D3_LOD0
+    100030: D3_LOD1
+    100032: 'D4_LOD0 '
+    100034: shadow
+    100036: shadow_lighter
+    100038: TextureLocators
+    100040: TextureLocators_2
+    100042: C1_shadow
+    100044: Texture Group_2
+    100046: TextureLocators_3
+    400000: 45
+    400002: avanzi
+    400004: C1_LOD0
+    400006: C1_LOD1
+    400008: D1_LOD0
+    400010: D1_LOD1
+    400012: D4_LOD0
+    400014: D4_LOD1
+    400016: 'D5_LOD0 '
+    400018: D5_LOD1
+    400020: //RootNode
+    400022: Texture Group
+    400024: 'Texture Group '
+    400026: Tri Grid 01.lxe
+    400028: D3_LOD0
+    400030: D3_LOD1
+    400032: 'D4_LOD0 '
+    400034: shadow
+    400036: shadow_lighter
+    400038: TextureLocators
+    400040: TextureLocators_2
+    400042: C1_shadow
+    400044: Texture Group_2
+    400046: TextureLocators_3
+    2300000: avanzi
+    2300002: C1_LOD0
+    2300004: C1_LOD1
+    2300006: D1_LOD0
+    2300008: D1_LOD1
+    2300010: D4_LOD0
+    2300012: D4_LOD1
+    2300014: 'D5_LOD0 '
+    2300016: D5_LOD1
+    2300018: D3_LOD0
+    2300020: D3_LOD1
+    2300022: 'D4_LOD0 '
+    2300024: shadow
+    2300026: shadow_lighter
+    2300028: C1_shadow
+    3300000: avanzi
+    3300002: C1_LOD0
+    3300004: C1_LOD1
+    3300006: D1_LOD0
+    3300008: D1_LOD1
+    3300010: D4_LOD0
+    3300012: D4_LOD1
+    3300014: 'D5_LOD0 '
+    3300016: D5_LOD1
+    3300018: D3_LOD0
+    3300020: D3_LOD1
+    3300022: 'D4_LOD0 '
+    3300024: shadow
+    3300026: shadow_lighter
+    3300028: C1_shadow
+    4300000: D4_LOD0
+    4300002: D4_LOD1
+    4300004: avanzi
+    4300006: D5_LOD1
+    4300008: 'D5_LOD0 '
+    4300010: D1_LOD1
+    4300012: D1_LOD0
+    4300014: C1_LOD1
+    4300016: C1_LOD0
+    4300018: D3_LOD0
+    4300020: 'D4_LOD0 '
+    4300022: D3_LOD1
+    4300024: shadow
+    4300026: shadow_lighter
+    4300028: C1_shadow
+    7400000: modo_Anim
+    9500000: //RootNode
+    11100000: //RootNode
+    20500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - .25
+    - .00999999978
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 
